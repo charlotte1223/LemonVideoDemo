@@ -32,5 +32,5 @@ Android 4.0及以上版本
  startActivity(intent);
 ```
 ##用到的第三方包
-butterknife-7.0.1、国广手机电视starschina_player_sdk、友盟数据统计umeng-analytics-v6.0.1、video++、xutils3.3.32，如有冲突请自行取舍
+butterknife-7.0.1、国广手机电视sdk_player、友盟数据统计umeng-analytics-v6.0.1、youzan-sdk-v3.0.3、xutils3.3.32、zxing，如有冲突请自行取舍
              
