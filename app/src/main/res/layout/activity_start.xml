@@ -12,8 +12,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:hint="请输入您的手机号"
-        android:padding="10dp"
-        android:text="13692235934"/>
+        android:padding="10dp"/>
 
     <EditText
         android:id="@+id/et_password"
@@ -22,8 +21,7 @@
         android:layout_marginTop="10dp"
         android:hint="请输入您的密码"
         android:padding="10dp"
-        android:inputType="textPassword"
-        android:text="123456"/>
+        android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/start_but"
