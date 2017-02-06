@@ -69,6 +69,11 @@
                     <!--banner部分-->
                     <include layout="@layout/lemon_common_banner"></include>
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/lemon_main_line"/>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -93,8 +98,8 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="@dimen/lemon_iv_type_size"
-                                    android:layout_height="@dimen/lemon_iv_type_size"
+                                    android:layout_width="@dimen/lemon_iv_type_size2"
+                                    android:layout_height="@dimen/lemon_iv_type_size2"
                                     android:src="@drawable/lemon_movie"/>
 
                                 <TextView
@@ -111,8 +116,8 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="@dimen/lemon_iv_type_size"
-                                    android:layout_height="@dimen/lemon_iv_type_size"
+                                    android:layout_width="@dimen/lemon_iv_type_size2"
+                                    android:layout_height="@dimen/lemon_iv_type_size2"
                                     android:src="@drawable/lemon_tv"/>
 
                                 <TextView
@@ -129,8 +134,8 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="@dimen/lemon_iv_type_size"
-                                    android:layout_height="@dimen/lemon_iv_type_size"
+                                    android:layout_width="@dimen/lemon_iv_type_size2"
+                                    android:layout_height="@dimen/lemon_iv_type_size2"
                                     android:src="@drawable/lemon_live"/>
 
                                 <TextView
@@ -147,8 +152,8 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="@dimen/lemon_iv_type_size"
-                                    android:layout_height="@dimen/lemon_iv_type_size"
+                                    android:layout_width="@dimen/lemon_iv_type_size2"
+                                    android:layout_height="@dimen/lemon_iv_type_size2"
                                     android:src="@drawable/lemon_tese_zhauanti"/>
 
                                 <TextView
@@ -175,8 +180,8 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="@dimen/lemon_iv_type_size"
-                                    android:layout_height="@dimen/lemon_iv_type_size"
+                                    android:layout_width="@dimen/lemon_iv_type_size2"
+                                    android:layout_height="@dimen/lemon_iv_type_size2"
                                     android:src="@drawable/lemon_donghua"/>
 
                                 <TextView
@@ -193,8 +198,8 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="@dimen/lemon_iv_type_size"
-                                    android:layout_height="@dimen/lemon_iv_type_size"
+                                    android:layout_width="@dimen/lemon_iv_type_size2"
+                                    android:layout_height="@dimen/lemon_iv_type_size2"
                                     android:src="@drawable/lemon_variety"/>
 
                                 <TextView
@@ -217,8 +222,8 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:layout_width="@dimen/lemon_iv_type_size"
-                                        android:layout_height="@dimen/lemon_iv_type_size"
+                                        android:layout_width="@dimen/lemon_iv_type_size2"
+                                        android:layout_height="@dimen/lemon_iv_type_size2"
                                         android:src="@drawable/lemon_gaoxiao"/>
 
                                     <TextView
@@ -236,8 +241,8 @@
                                     android:visibility="visible">
 
                                     <ImageView
-                                        android:layout_width="@dimen/lemon_iv_type_size"
-                                        android:layout_height="@dimen/lemon_iv_type_size"
+                                        android:layout_width="@dimen/lemon_iv_type_size2"
+                                        android:layout_height="@dimen/lemon_iv_type_size2"
                                         android:src="@drawable/lemon_sport"
                                         android:visibility="gone"/>
 

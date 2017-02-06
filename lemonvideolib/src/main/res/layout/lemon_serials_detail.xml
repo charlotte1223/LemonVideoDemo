@@ -8,22 +8,50 @@
     android:fitsSystemWindows="true">
 
     <RelativeLayout
-        android:id="@+id/lemon_movie_detail_rl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/lemon_bg">
 
-        <cn.com.video.venvy.param.JjVideoRelativeLayout
-            android:id="@+id/jjlayout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/lemon_video_height">
+        <!--<cn.com.video.venvy.param.JjVideoRelativeLayout-->
+        <!--android:id="@+id/jjlayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/lemon_video_height">-->
 
-            <cn.com.video.venvy.param.JjVideoView
-                android:id="@+id/video"
+        <!--<cn.com.video.venvy.param.JjVideoView-->
+        <!--android:id="@+id/video"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"/>-->
+        <com.lemon95.lemonvideolib.play.media.MyVideoRelativeLayout
+            android:id="@+id/video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lemon_video_height"
+            android:background="@color/lemon_black">
+
+            <android.support.v4.widget.DrawerLayout
+                android:id="@+id/lemon95_play_menu"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true" />
+                android:layout_height="match_parent">
+
+                <com.lemon95.lemonvideolib.play.media.MyMediaController
+                    android:id="@+id/my_media_controller"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                    <com.lemon95.lemonvideolib.play.media.ijk.IjkVideoView
+                        android:id="@+id/video"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                </com.lemon95.lemonvideolib.play.media.MyMediaController>
+                <!--调节解码方式菜单-->
+                <include layout="@layout/play_menu"></include>
+
+            </android.support.v4.widget.DrawerLayout>
 
             <include
                 android:id="@+id/sdk_ijk_progress_bar_layout"
@@ -31,14 +59,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
-            <include
-                android:id="@+id/sdk_load_layout"
-                layout="@layout/venvy_video_ijk_load_sdk"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:visibility="gone" />
+            <!--<include-->
+            <!--android:id="@+id/sdk_load_layout"-->
+            <!--layout="@layout/venvy_video_ijk_load_sdk"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:visibility="gone"/>-->
 
             <!--<include-->
             <!--android:id="@+id/lemon_play_error_layout"-->
@@ -54,16 +82,30 @@
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
+            <include
+                android:id="@+id/lemon_ad_view"
+                layout="@layout/lemon_ad_view"
+                android:visibility="gone" />
+
             <ImageButton
                 android:id="@+id/lemon_back_btn"
                 style="@style/venvy_media_controller_back_style"
                 android:layout_marginTop="10dp" />
-        </cn.com.video.venvy.param.JjVideoRelativeLayout>
+        </com.lemon95.lemonvideolib.play.media.MyVideoRelativeLayout>
+
+        <TableLayout
+            android:id="@+id/hud_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@color/ijk_transparent_dark"
+            android:padding="8dp"
+            android:visibility="gone" />
 
         <View
             android:id="@+id/lemon_line1"
             style="@style/lemon_horizen_line"
-            android:layout_below="@id/jjlayout" />
+            android:layout_below="@id/video_layout" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -99,6 +141,26 @@
 
                         <include layout="@layout/lemon_movie_detail_btn" />
 
+                        <RelativeLayout
+                            android:id="@+id/lemon_gg_banner"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:background="@color/lemon_bg"
+                            android:orientation="horizontal"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp"
+                            android:paddingTop="5dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/lemon_gg__iv_banner"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/lemon_banner_iv_hig"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/lemon_banner_src" />
+                        </RelativeLayout>
+
                         <include layout="@layout/lemon_horizen_episodes" />
 
                         <include layout="@layout/lemon_you_may_like" />
@@ -116,7 +178,7 @@
 
                             <include layout="@layout/lemon_movie_zone" />
 
-                            <com.lemon95.lemonvideolib.movie.widget.MyListView
+                            <com.lemon95.lemonvideolib.play.widget.MyListView
                                 android:id="@+id/lemon_talks_listview"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"

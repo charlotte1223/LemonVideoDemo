@@ -5,7 +5,8 @@ android {
     buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId "com.lemon95.lemonvideodemo"
+//        applicationId "com.lemon95.lemonvideodemo"
+        applicationId "com.lemon95.lemonvideo"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
@@ -18,6 +19,7 @@ android {
         }
         debug {
             minifyEnabled false
+            multiDexEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

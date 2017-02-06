@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ptr="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/lemon_bg"
-    android:orientation="vertical"
-    tools:context=".movie.view.VideosMainActivity">
+              xmlns:ptr="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/lemon_bg"
+              android:orientation="vertical"
+              tools:context=".movie.view.VideosMainActivity">
 
     <include layout="@layout/lemon_common_top_back"/>
 
@@ -63,7 +63,7 @@
                             android:gravity="left|center_vertical"
                             android:paddingLeft="8dp"
                             android:text="@string/lemon_search_ed"
-                            android:textColor="@color/lemon_seach_tv" />
+                            android:textColor="@color/lemon_seach_tv"/>
 
                         <TextView
                             android:id="@+id/video_all_tv"
@@ -74,29 +74,30 @@
                             android:background="@drawable/lemon_edittext_bg"
                             android:gravity="center"
                             android:text="@string/lemon_video_all"
-                            android:textColor="@color/lemon_seach_tv" />
+                            android:textColor="@color/lemon_seach_tv"/>
 
                     </LinearLayout>
 
                     <!--banner部分-->
                     <include layout="@layout/lemon_common_banner"></include>
                     <!--<View-->
-                        <!--android:layout_width="match_parent"-->
-                        <!--android:layout_height="0.5dp"-->
-                        <!--android:background="@color/lemon_main_line" />-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0.5dp"-->
+                    <!--android:background="@color/lemon_main_line" />-->
 
 
                     <LinearLayout
-                        android:visibility="gone"
                         android:id="@+id/video_special_column_ll_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:visibility="gone">
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"
-                            android:background="@color/lemon_main_line" />
+                            android:background="@color/lemon_main_line"/>
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -110,7 +111,7 @@
                                 android:paddingBottom="@dimen/lemon_type_top"
                                 android:paddingTop="@dimen/lemon_type_top">
 
-                                <View style="@style/lemon_side_title_line" />
+                                <View style="@style/lemon_side_title_line"/>
 
                                 <TextView
                                     android:id="@+id/video_special_column_title_1"
@@ -121,7 +122,7 @@
                                     android:ellipsize="end"
                                     android:singleLine="true"
                                     android:textColor="@color/lemon_record_tv"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
                             </LinearLayout>
 
                             <LinearLayout
@@ -139,14 +140,14 @@
                                     android:layout_gravity="center"
                                     android:text="@string/lemon_more"
                                     android:textColor="@color/lemon_movie_msg"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
 
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="@dimen/lemon_iv_rig_more_size"
                                     android:layout_marginLeft="@dimen/lemon_type_top"
                                     android:layout_marginRight="@dimen/lemon_top_function_rig"
-                                    android:src="@drawable/lemon_gengduo" />
+                                    android:src="@drawable/lemon_gengduo"/>
 
                             </LinearLayout>
                         </RelativeLayout>
@@ -154,9 +155,9 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:background="@color/lemon_white"
                             android:orientation="vertical"
-                            android:paddingBottom="@dimen/lemon_type_top"
-                            android:background="@color/lemon_white">
+                            android:paddingBottom="@dimen/lemon_type_top">
 
                             <com.lemon95.lemonvideolib.common.myview.MyGridView
                                 android:id="@+id/gridview_special_column_1"
@@ -167,25 +168,48 @@
                                 android:horizontalSpacing="@dimen/lemon_image_gap"
                                 android:listSelector="@color/lemon_white"
                                 android:numColumns="3"
-                                android:verticalSpacing="@dimen/lemon_image_gap" />
+                                android:verticalSpacing="@dimen/lemon_image_gap"/>
                         </LinearLayout>
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"
-                            android:background="@color/lemon_main_line" />
+                            android:background="@color/lemon_main_line"/>
                     </LinearLayout>
 
+                    <RelativeLayout
+                        android:id="@+id/lemon_video_ll_hengfu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@color/lemon_bg"
+                        android:orientation="horizontal"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingTop="5dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/lemon_video_ll__iv_banner"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/lemon_banner_iv_hig"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/lemon_banner_src"/>
+                    </RelativeLayout>
+
                     <LinearLayout
-                        android:visibility="gone"
                         android:id="@+id/video_special_column_ll_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"
                             android:layout_marginTop="@dimen/lemon_type_top"
-                            android:background="@color/lemon_main_line" />
+                            android:background="@color/lemon_main_line"/>
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -199,7 +223,7 @@
                                 android:paddingBottom="@dimen/lemon_type_top"
                                 android:paddingTop="@dimen/lemon_type_top">
 
-                                <View style="@style/lemon_side_title_line" />
+                                <View style="@style/lemon_side_title_line"/>
 
                                 <TextView
                                     android:id="@+id/video_special_column_title_2"
@@ -210,7 +234,7 @@
                                     android:ellipsize="end"
                                     android:singleLine="true"
                                     android:textColor="@color/lemon_record_tv"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
                             </LinearLayout>
 
                             <LinearLayout
@@ -228,14 +252,14 @@
                                     android:layout_gravity="center"
                                     android:text="@string/lemon_mores"
                                     android:textColor="@color/lemon_movie_msg"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
 
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="@dimen/lemon_iv_rig_more_size"
                                     android:layout_marginLeft="@dimen/lemon_type_top"
                                     android:layout_marginRight="@dimen/lemon_top_function_rig"
-                                    android:src="@drawable/lemon_gengduo" />
+                                    android:src="@drawable/lemon_gengduo"/>
 
                             </LinearLayout>
                         </RelativeLayout>
@@ -243,8 +267,8 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:background="@color/lemon_white">
+                            android:background="@color/lemon_white"
+                            android:orientation="vertical">
 
                             <com.lemon95.lemonvideolib.common.myview.MyGridView
                                 android:id="@+id/gridview_special_column_2"
@@ -255,8 +279,9 @@
                                 android:horizontalSpacing="@dimen/lemon_image_gap"
                                 android:listSelector="@color/lemon_white"
                                 android:numColumns="3"
-                                android:verticalSpacing="@dimen/lemon_image_gap" />
+                                android:verticalSpacing="@dimen/lemon_image_gap"/>
                         </LinearLayout>
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"
@@ -269,11 +294,13 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:visibility="gone">
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"
                             android:layout_marginTop="@dimen/lemon_type_top"
                             android:background="@color/lemon_main_line"/>
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -287,7 +314,7 @@
                                 android:paddingBottom="@dimen/lemon_type_top"
                                 android:paddingTop="@dimen/lemon_type_top">
 
-                                <View style="@style/lemon_side_title_line" />
+                                <View style="@style/lemon_side_title_line"/>
 
                                 <TextView
                                     android:id="@+id/video_special_column_title_3"
@@ -298,7 +325,7 @@
                                     android:ellipsize="end"
                                     android:singleLine="true"
                                     android:textColor="@color/lemon_record_tv"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
                             </LinearLayout>
 
                             <LinearLayout
@@ -316,14 +343,14 @@
                                     android:layout_gravity="center"
                                     android:text="@string/lemon_mores"
                                     android:textColor="@color/lemon_movie_msg"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
 
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="@dimen/lemon_iv_rig_more_size"
                                     android:layout_marginLeft="@dimen/lemon_type_top"
                                     android:layout_marginRight="@dimen/lemon_top_function_rig"
-                                    android:src="@drawable/lemon_gengduo" />
+                                    android:src="@drawable/lemon_gengduo"/>
 
                             </LinearLayout>
                         </RelativeLayout>
@@ -331,8 +358,8 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:background="@color/lemon_white">
+                            android:background="@color/lemon_white"
+                            android:orientation="vertical">
 
                             <com.lemon95.lemonvideolib.common.myview.MyGridView
                                 android:id="@+id/gridview_special_column_3"
@@ -343,7 +370,7 @@
                                 android:horizontalSpacing="@dimen/lemon_image_gap"
                                 android:listSelector="@color/lemon_white"
                                 android:numColumns="3"
-                                android:verticalSpacing="@dimen/lemon_image_gap" />
+                                android:verticalSpacing="@dimen/lemon_image_gap"/>
                         </LinearLayout>
 
                         <View
@@ -358,6 +385,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
                         android:visibility="gone">
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"
@@ -377,7 +405,7 @@
                                 android:paddingBottom="@dimen/lemon_type_top"
                                 android:paddingTop="@dimen/lemon_type_top">
 
-                                <View style="@style/lemon_side_title_line" />
+                                <View style="@style/lemon_side_title_line"/>
 
                                 <TextView
                                     android:id="@+id/video_special_column_title_4"
@@ -388,7 +416,7 @@
                                     android:ellipsize="end"
                                     android:singleLine="true"
                                     android:textColor="@color/lemon_record_tv"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
                             </LinearLayout>
 
                             <LinearLayout
@@ -406,14 +434,14 @@
                                     android:layout_gravity="center"
                                     android:text="@string/lemon_mores"
                                     android:textColor="@color/lemon_movie_msg"
-                                    android:textSize="@dimen/lemon_type_text_size" />
+                                    android:textSize="@dimen/lemon_type_text_size"/>
 
                                 <ImageView
                                     android:layout_width="wrap_content"
                                     android:layout_height="@dimen/lemon_iv_rig_more_size"
                                     android:layout_marginLeft="@dimen/lemon_type_top"
                                     android:layout_marginRight="@dimen/lemon_top_function_rig"
-                                    android:src="@drawable/lemon_gengduo" />
+                                    android:src="@drawable/lemon_gengduo"/>
 
                             </LinearLayout>
                         </RelativeLayout>
@@ -421,8 +449,8 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:background="@color/lemon_white">
+                            android:background="@color/lemon_white"
+                            android:orientation="vertical">
 
                             <com.lemon95.lemonvideolib.common.myview.MyGridView
                                 android:id="@+id/gridview_special_column_4"
@@ -433,8 +461,9 @@
                                 android:horizontalSpacing="@dimen/lemon_image_gap"
                                 android:listSelector="@color/lemon_white"
                                 android:numColumns="3"
-                                android:verticalSpacing="@dimen/lemon_image_gap" />
+                                android:verticalSpacing="@dimen/lemon_image_gap"/>
                         </LinearLayout>
+
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="0.5dp"

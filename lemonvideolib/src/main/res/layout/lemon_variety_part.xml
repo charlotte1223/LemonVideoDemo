@@ -43,7 +43,7 @@
 
     <View style="@style/lemon_horizen_line" />
 
-    <com.lemon95.lemonvideolib.movie.widget.MyListView
+    <com.lemon95.lemonvideolib.play.widget.MyListView
         android:id="@+id/lemon_variety_listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/lemon_white"
-    android:orientation="vertical">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/lemon_white"
+              android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
                 android:layout_width="@dimen/lemon_iv_top_left_size"
                 android:layout_height="@dimen/lemon_iv_top_left_size"
                 android:layout_gravity="center"
-                android:src="@drawable/icon_fanhui" />
+                android:src="@drawable/icon_fanhui"/>
         </LinearLayout>
 
         <LinearLayout
@@ -35,7 +35,7 @@
             <ImageView
                 android:layout_width="@dimen/lemon_video_recording_top"
                 android:layout_height="@dimen/lemon_video_recording_top"
-                android:src="@drawable/lemon_sousuo" />
+                android:src="@drawable/lemon_sousuo"/>
         </LinearLayout>
 
         <EditText
@@ -56,7 +56,7 @@
             android:singleLine="true"
             android:textColor="@color/lemon_white"
             android:textColorHint="#99ffffff"
-            android:textSize="@dimen/lemon_private_search_ed_size" />
+            android:textSize="@dimen/lemon_private_search_ed_size"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -76,7 +76,6 @@
             android:id="@+id/lemon_search_sousuo_sv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20dp"
             android:scrollbars="none">
 
             <LinearLayout
@@ -92,6 +91,21 @@
                 <include
                     layout="@layout/lemon_search_resou_list"
                     android:visibility="gone"></include>
+
+                <LinearLayout
+                    android:id="@+id/lemon_sousuo_ll_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/lemon_bg"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="5dp"
+                    android:visibility="gone">
+                </LinearLayout>
             </LinearLayout>
         </ScrollView>
 
@@ -104,5 +118,5 @@
         layout="@layout/lemon_common_load_ma"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone" />
+        android:visibility="gone"/>
 </LinearLayout>

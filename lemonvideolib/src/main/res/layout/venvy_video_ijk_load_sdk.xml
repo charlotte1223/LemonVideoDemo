@@ -4,20 +4,27 @@
     android:layout_height="120dp"
     android:gravity="center" >
 
-    <ProgressBar
-        android:id="@+id/sdk_sdk_ijk_load_buffer_load"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
-        android:indeterminateBehavior="repeat"
-        android:indeterminateDrawable="@drawable/venvy_video_sdk_ijk_progress_bar_load_bg"
-        android:indeterminateOnly="true" />
+    <!--<ProgressBar-->
+        <!--android:id="@+id/sdk_sdk_ijk_load_buffer_load"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:indeterminateBehavior="repeat"-->
+        <!--android:indeterminateDrawable="@drawable/venvy_video_sdk_ijk_progress_bar_load_bg"-->
+        <!--android:indeterminateOnly="true" />-->
+
+    <ImageView
+        android:id="@+id/buffer_load_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@anim/lemon_video_loading" />
 
     <TextView
+        android:visibility="gone"
         android:id="@+id/sdk_sdk_ijk_load_buffer_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sdk_sdk_ijk_load_buffer_load"
+        android:layout_below="@id/buffer_load_image"
         android:layout_centerHorizontal="true"
         android:textColor="@color/venvy_video_buffer_text_color" />
 

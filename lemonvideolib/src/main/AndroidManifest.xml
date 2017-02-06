@@ -53,219 +53,246 @@
         <service
             android:name="com.starschina.push.StarschinaPlayerService"
             android:exported="true"
-            android:process=":push" />
+            android:process=":push"/>
 
         <activity
             android:name="com.lemon95.lemonvideolib.MainActivity"
             android:launchMode="singleTop"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait">
+        </activity>
         <activity
-            android:name="com.lemon95.lemonvideolib.movie.view.VideoListActivity"
-            android:screenOrientation="portrait" >
+            android:name="com.lemon95.lemonvideolib.play.view.VideoListActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="MOVIE_ACTION" />
+                <action android:name="MOVIE_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lemon95.lemonvideolib.movie.view.VideosMainActivity"
-            android:screenOrientation="portrait" >
+            android:name="com.lemon95.lemonvideolib.play.view.VideosMainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="VIDEO_MAIN_ACTION" />
+                <action android:name="VIDEO_MAIN_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lemon95.lemonvideolib.movie.view.VideoMoreActivity"
-            android:screenOrientation="portrait" >
+            android:name="com.lemon95.lemonvideolib.play.view.VideoMoreActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="VIDEO_MORE_ACTION" />
-
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="VIDEO_MORE_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.common.view.UrlActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="WEBVIEW_ACTION" />
+                <action android:name="WEBVIEW_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.user.view.PurchaseActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
+
                 <!-- 视频记录页 -->
-                <action android:name="LOG_ACTION" />
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="LOG_ACTION"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.user.view.ShareRecordActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.login.AgreementActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.user.view.ProblemActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
+        <!--<activity-->
+        <!--android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"-->
+        <!--android:configChanges="orientation|screenSize"-->
+        <!--android:theme="@android:style/Theme.Black.NoTitleBar"/>-->
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.CustomMovieActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" >
+            android:windowSoftInputMode="stateHidden">
             <intent-filter>
+
                 <!-- 私人定制 -->
-                <action android:name="CUSTOM_ACTION" />
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="CUSTOM_ACTION"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.CustomTipsActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
 
                 <!-- 定制提醒 -->
-                <action android:name="CUSTOM_TIPS" />
+                <action android:name="CUSTOM_TIPS"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.LoginPromptActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <!-- 登录 -->
-                <action android:name="LOGIN_PROMPT" />
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <!-- 登录 -->
+                <action android:name="LOGIN_PROMPT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.CustomRecordActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.ConfirmAgainActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden"/>
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.SearchContentActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.customization.view.MyCustomRecordActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
         <activity
-            android:name="com.lemon95.lemonvideolib.special.view.SpecialActivity"
-            android:screenOrientation="portrait" >
+            android:name="com.lemon95.lemonvideolib.pay.view.PayFilmActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="SPECIAL_ACTION" />
+                <action android:name="PAY_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lemon95.lemonvideolib.special.view.SpecialActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="SPECIAL_ACTION"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.characteristic.view.SpecialDetailsActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="SPECIAL_DTAILS" />
+                <action android:name="SPECIAL_DTAILS"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.special.view.CameraActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="SPECIAL_VIDEO_ACTION" />
+                <action android:name="SPECIAL_VIDEO_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+
         <activity
             android:name="com.lemon95.lemonvideolib.livetv.view.ChannelMainActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="LIVE_ACTION" />
+                <action android:name="LIVE_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
             android:name="com.lemon95.lemonvideolib.livetv.view.LemonVideoActivity"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar" />
+            android:theme="@android:style/Theme.NoTitleBar"/>
         <activity
-            android:name="com.lemon95.lemonvideolib.movie.view.MovieDetailActivity"
+            android:name="com.lemon95.lemonvideolib.play.view.MovieDetailActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/AppVideoStyle" >
+            android:theme="@style/AppVideoStyle">
             <intent-filter>
-                <action android:name="MOVIEDETAIL_ACTION" />
+                <action android:name="MOVIEDETAIL_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lemon95.lemonvideolib.movie.view.SerialsDetailActivity"
+            android:name="com.lemon95.lemonvideolib.play.view.SerialsDetailActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/AppVideoStyle" >
+            android:theme="@style/AppVideoStyle">
             <intent-filter>
-                <action android:name="SERIALDETAIL_ACTION" />
-
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="SERIALDETAIL_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.lemon95.lemonvideolib.special.view.VideoPlayActivity"
-            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
-            android:launchMode="singleTop"
-            android:windowSoftInputMode="stateAlwaysHidden" >
-            <intent-filter>
-                <action android:name="PLAY_WUYE_ACTION" />
+        <!--<activity-->
+        <!--android:name=".special.view.VideoPlayActivity"-->
+        <!--android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"-->
+        <!--android:launchMode="singleTop"-->
+        <!--android:windowSoftInputMode="stateAlwaysHidden">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="PLAY_WUYE_ACTION"/>-->
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <!--<category android:name="android.intent.category.DEFAULT"/>-->
+        <!--</intent-filter>-->
+        <!--</activity>-->
         <activity
             android:name="com.lemon95.lemonvideolib.special.view.SpecialFromActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.special.view.SpecialListActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.user.view.FeedBackActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden"/>
+
         <activity
             android:name="com.lemon95.lemonvideolib.user.view.StatementActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
+
         <activity
             android:name="com.lemon95.lemonvideolib.characteristic.view.SpecialActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="PLAY_CHARACTER_ACTION" />
+                <action android:name="PLAY_CHARACTER_ACTION"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lemon95.lemonvideolib.movie.view.SearchActivity"
+            android:name="com.lemon95.lemonvideolib.play.view.SearchActivity"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
+            android:windowSoftInputMode="stateHidden"/>
+
+        <activity
+            android:name="com.lemon95.lemonvideolib.login.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.lemon95.lemonvideolib.login.RegisterActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.login.ForgetActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name="com.lemon95.lemonvideolib.user.view.SettingActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

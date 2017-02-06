@@ -7,11 +7,21 @@
 
     <include layout="@layout/lemon_common_top_back"></include>
 
-    <WebView
-        android:id="@+id/content"
+    <ProgressBar
+        android:id="@+id/lemon_pro"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginTop="48dp"
+        android:progress="00"
+        android:max="100"
+        android:visibility="visible"/>
+
+    <com.youzan.sdk.web.plugin.YouzanBrowser
+        android:id="@+id/webview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_marginTop="@dimen/lemon_high"
+        android:layout_marginTop="55dp"
         android:layerType="software"
         android:scrollbars="none" />
 

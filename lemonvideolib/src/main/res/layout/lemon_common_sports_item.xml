@@ -45,15 +45,12 @@
         android:id="@+id/lemon_tv_name"
         style="@style/main_type_text"
         android:layout_marginLeft="10dp"
-        android:ellipsize="end"
-        android:maxLines="2"
-        android:text="@string/lemon_video_name"/>
+        android:lines="2"
+        android:ellipsize="end"/>
 
     <TextView
         android:id="@+id/lemon_tv_click"
         style="@style/main_type_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="@dimen/lemon_type_text_top"
         android:drawableLeft="@drawable/lemon_main_dianjiliang"

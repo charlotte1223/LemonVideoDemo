@@ -26,7 +26,10 @@
 
         <TextView
             android:id="@+id/tv_top_back_title"
-            style="@style/top_title" />
+            style="@style/top_title"
+            android:maxEms="12"
+            android:singleLine="true"
+            android:ellipsize="end"/>
     </RelativeLayout>
 
 </RelativeLayout>

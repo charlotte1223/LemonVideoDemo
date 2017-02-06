@@ -1,22 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="120dp"
-    android:layout_height="80dp"
-    android:gravity="center"
-    android:visibility="gone">
+                android:layout_width="@dimen/media_controller_forward_view_width"
+                android:layout_height="@dimen/media_controller_forward_view_height"
+                android:gravity="center"
+                android:visibility="gone">
 
-    <ImageView
-        android:id="@+id/sdk_sdk_media_controller_plan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/venvy_sdk_media_controller_backward_bg" />
+    <RelativeLayout
+        android:layout_width="@dimen/media_controller_forward_view_width"
+        android:layout_height="@dimen/media_controller_forward_view_height"
+        android:background="@drawable/media_controller_volumn_view_bg"
+        android:gravity="center">
 
-    <TextView
-        android:id="@+id/sdk_sdk_media_controller_plan_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sdk_sdk_media_controller_plan"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/venvy_video_buffer_text_color" />
+        <ImageView
+            android:id="@+id/sdk_sdk_media_controller_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/venvy_sdk_media_controller_backward_bg"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sdk_sdk_media_controller_plan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/media_controller_plan_target_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/media_controller_forward_to_text_color"
+                android:textSize="@dimen/media_controller_forward_text_size"/>
+
+            <TextView
+                android:id="@+id/media_controller_plan_total_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/media_controller_forward_text_color"
+                android:textSize="@dimen/media_controller_forward_text_size"/>
+        </LinearLayout>
+        <!--<TextView-->
+        <!--android:id="@+id/sdk_sdk_media_controller_plan_time"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/sdk_sdk_media_controller_plan"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/media_controller_forward_text_color"-->
+        <!--android:textSize="@dimen/media_controller_forward_text_size"/>-->
+    </RelativeLayout>
 </RelativeLayout>

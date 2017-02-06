@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ptr="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/lemon_bg"
-    tools:context=".movie.view.VideoListActivity">
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lemon_bg"
+                tools:context=".movie.view.VideoListActivity">
 
     <include
         android:id="@+id/lemon_in_top"
-        layout="@layout/lemon_common_top_rig_img"></include>
+        layout="@layout/lemon_common_top_rig_img"/>
 
-    <include layout="@layout/lemon_content_view"></include>
+    <include layout="@layout/lemon_content_view"/>
 
-    <include layout="@layout/lemon_common_load"></include>
+    <include layout="@layout/lemon_common_load"/>
 
     <LinearLayout
         android:id="@+id/lemon_ll_vip_main"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/lemon_high"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,12 +32,12 @@
             <com.lynnchurch.horizontalscrollmenu.HorizontalScrollMenu
                 android:id="@+id/lemon_hsm_container"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"/>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/lemon_main_line" />
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="@color/lemon_main_line"/>-->
 
         </LinearLayout>
     </LinearLayout>
@@ -49,15 +49,11 @@
         android:layout_below="@id/lemon_ll_vip_main"
         android:background="@color/lemon_white">
 
-        <com.lemon95.lemonvideolib.common.myview.gridview.PullToRefreshScrollView
-            android:id="@+id/pull_refresh_scrollview"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scrollbars="none"
-            ptr:ptrAnimationStyle="rotate"
-            ptr:ptrHeaderTextColor="@color/lemon_type_color"
-            ptr:ptrMode="both"
-            ptr:ptrRotateDrawableWhilePulling="true">
+            android:background="@color/lemon_white"
+            android:orientation="vertical" >
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -65,15 +61,16 @@
                 android:background="@color/lemon_white"
                 android:orientation="vertical">
 
-                <include layout="@layout/lemon_common_movie_top" />
+                <include layout="@layout/lemon_common_movie_top"/>
 
-                <!--<com.lemon95.lemonvideolib.common.myview.gridview.PullToRefreshGridView-->
+                <!--<com.lemon95.lemonvideo.common.myview.gridview.PullToRefreshGridView-->
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/lemon_white">
 
-                    <com.lemon95.lemonvideolib.common.myview.MyGridView
+
+                    <com.lemon95.lemonvideolib.common.myview.gridview.PullToRefreshGridView
                         android:id="@+id/lemon_video_gridview"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -82,13 +79,40 @@
                         android:horizontalSpacing="5dp"
                         android:listSelector="@color/lemon_bg"
                         android:numColumns="3"
-                        android:paddingLeft="@dimen/lemon_type_title_left"
-                        android:paddingRight="@dimen/lemon_type_title_left"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
                         android:paddingTop="5dp"
                         android:scrollbars="none"
                         android:stretchMode="columnWidth"
                         android:verticalSpacing="5dp"
-                        ptr:ptrHeaderTextColor="@color/lemon_type_color" />
+                        ptr:ptrHeaderTextColor="@color/lemon_type_color"
+                        ptr:ptrMode="pullUpFromBottom"/>
+
+                    <RelativeLayout
+                        android:id="@+id/lemon_rl_shaixuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#e5ffffff"
+                        android:visibility="gone">
+                        |
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:text="更多选择"/>
+
+                        <ImageView
+
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="12dp"
+                            android:src="@drawable/lemon_down"/>
+                    </RelativeLayout>
+
 
                     <LinearLayout
                         android:id="@+id/lemon_ll_no_data"
@@ -104,19 +128,19 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginBottom="20dp"
                             android:layout_marginTop="60dp"
-                            android:src="@drawable/lemon_no_dingzhi" />
+                            android:src="@drawable/lemon_no_dingzhi"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:text="@string/lemon_no_data_tip"
-                            android:textSize="@dimen/lemon_not_what_ll_tv_textSize" />
+                            android:textSize="@dimen/lemon_not_what_ll_tv_textSize"/>
                     </LinearLayout>
                 </RelativeLayout>
 
             </LinearLayout>
-        </com.lemon95.lemonvideolib.common.myview.gridview.PullToRefreshScrollView>
+        </LinearLayout>
     </LinearLayout>
 
     <!--<include layout="@layout/lemon_common_action_but"/>-->

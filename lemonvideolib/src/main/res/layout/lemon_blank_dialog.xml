@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:background="@color/lemon_bg"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lemon_bg"
+    android:orientation="vertical">
 
 
     <TextView
@@ -15,16 +15,17 @@
         android:gravity="center"
         android:padding="10dp"
         android:textColor="@color/lemon_white"
-        android:textSize="21sp"/>
+        android:textSize="21sp" />
 
     <TextView
         android:id="@+id/lemon_blank_dialog_tv_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        android:lineSpacingExtra="3dp"
         android:padding="10dp"
-        android:textColor="@color/lemon_blacker"
-        android:textSize="16sp"/>
+        android:textColor="#4d4d4d"
+        android:textSize="16sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,14 +46,14 @@
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
             android:textColor="@color/lemon_white"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/lemon_blank_jixudingzhi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:background="@drawable/lemon_bf_open_vip"
@@ -60,7 +61,7 @@
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
             android:textColor="@color/lemon_top_bg"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
     </LinearLayout>
 

@@ -60,7 +60,7 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <com.lemon95.lemonvideolib.movie.widget.MyListView
+    <com.lemon95.lemonvideolib.play.widget.MyListView
         android:visibility="gone"
         android:id="@+id/lemon_maylike_listview"
         android:layout_width="match_parent"

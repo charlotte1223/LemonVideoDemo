@@ -5,15 +5,23 @@
     android:background="#000"
     android:clickable="true" >
 
-    <ProgressBar
-        android:id="@+id/sdk_ijk_progress_bar"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+    <!--<ProgressBar-->
+        <!--android:id="@+id/sdk_ijk_progress_bar"-->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:indeterminateBehavior="repeat"-->
+        <!--android:indeterminateDrawable="@drawable/venvy_video_sdk_ijk_progress_bar_bg"-->
+        <!--android:indeterminateOnly="true" />-->
+
+    <ImageView
+        android:id="@+id/load_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:indeterminateBehavior="repeat"
-        android:indeterminateDrawable="@drawable/venvy_video_sdk_ijk_progress_bar_bg"
-        android:indeterminateOnly="true" />
+        android:background="@anim/lemon_video_loading" />
 
     <ImageView
         android:id="@+id/sdk_ijk_progress_bar_logo"
@@ -21,19 +29,18 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:visibility="gone"
-        android:src="@drawable/venvy_sdk_progress_bar_bg" />
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/sdk_ijk_progress_bar_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/sdk_ijk_progress_bar"
+        android:layout_below="@+id/load_image"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:lineSpacingExtra="10dp"
         android:lineSpacingMultiplier="1.2"
-        android:text="@string/sdk_video_connect_server_text"
+        android:text="@string/lemon_video_loading"
         android:textColor="#666666"
         android:textSize="14dp" />
 

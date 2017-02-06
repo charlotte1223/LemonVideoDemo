@@ -3,7 +3,7 @@
     android:id="@+id/sdk_media_controller"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/venvy_video_sdk_media_controller_bg"
+    android:background="@null"
     android:visibility="invisible" >
 
     <!-- 控制器布局以及设置背景 -->
@@ -48,6 +48,17 @@
             android:visibility="gone"
             android:id="@+id/sdk_media_controller_video_set_more"
             style="@style/venvy_media_controller_set_more_style" />
+
+        <TextView
+            android:id="@+id/play_set_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="18dp"
+            android:text="设置"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"/>
     </LinearLayout>
 
     <LinearLayout
@@ -63,14 +74,19 @@
             android:id="@+id/lemon_current_time"
             style="@style/venvy_media_controller_title_style"
             android:layout_width="wrap_content"
+            android:layout_marginRight="70dp"
+            android:visibility="gone"
             android:gravity="center" />
+
     </LinearLayout>
 
     <ImageButton
+        android:visibility="gone"
         android:id="@+id/sdk_media_controller_video_lock"
         style="@style/venvy_media_controller_lock_style"
-        android:layout_marginLeft="2dp"
-        android:background="@drawable/lemon_msg_bg"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true" />
 
@@ -86,7 +102,7 @@
         <RelativeLayout
             android:id="@+id/sdk_media_controller_control"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <!-- 暂停播放按钮 -->
 
@@ -106,7 +122,7 @@
                 android:id="@+id/video_next_episode"
                 android:layout_width="64dp"
                 android:layout_height="48dp"
-                android:layout_marginLeft="-25dp"
+                android:layout_marginLeft="-15dp"
                 android:layout_marginRight="5dp"
                 android:layout_toRightOf="@+id/sdk_media_controller_play_pause"
                 android:layout_toEndOf="@+id/sdk_media_controller_play_pause"
@@ -117,8 +133,7 @@
             <TextView
                 android:id="@+id/sdk_media_controller_time_current"
                 style="@style/venvy_media_controller_time_text_Style"
-                android:layout_marginLeft="-15dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginLeft="-5dp"
                 android:layout_toEndOf="@id/video_next_episode"
                 android:layout_toRightOf="@id/video_next_episode" />
             <!-- seek进度条 -->
@@ -142,6 +157,7 @@
                 android:layout_height="@dimen/venvy_video_sdk_panel_height"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
                 android:background="@null"
                 android:src="@drawable/venvy_sdk_media_controller_direction_bg"
                 android:layout_centerVertical="true"/>

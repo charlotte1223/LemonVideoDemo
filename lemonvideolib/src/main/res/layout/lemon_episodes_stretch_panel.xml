@@ -7,7 +7,7 @@
     <View
         style="@style/lemon_horizen_line"
         android:layout_marginTop="5dp" />
-    <com.lemon95.lemonvideolib.movie.widget.StretchPanel
+    <com.lemon95.lemonvideolib.play.widget.StretchPanel
         android:id="@+id/lemon_episodes_stretch_panel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

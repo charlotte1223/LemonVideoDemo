@@ -12,7 +12,7 @@
         android:id="@+id/lemon_iv_load_anim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@anim/lemon_load" />
+        android:background="@anim/lemon_video_loading" />
 
     <TextView
         android:layout_width="wrap_content"

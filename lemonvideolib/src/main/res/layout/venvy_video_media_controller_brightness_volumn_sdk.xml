@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:gravity="center"
-    android:visibility="gone">
+                android:layout_width="@dimen/media_controller_forward_view_width"
+                android:layout_height="@dimen/media_controller_forward_view_height"
+                android:gravity="center"
+                android:visibility="gone">
 
-    <ImageView
-        android:id="@+id/sdk_media_controller_operation_bg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/venvy_sdk_media_controller_volume" />
+    <RelativeLayout
+        android:layout_width="@dimen/media_controller_forward_view_width"
+        android:layout_height="@dimen/media_controller_forward_view_height"
+        android:background="@drawable/media_controller_volumn_view_bg"
+        android:gravity="center">
 
-    <TextView
-        android:id="@+id/sdk_media_controller_tv_volume_percentage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sdk_media_controller_operation_bg"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/venvy_video_buffer_text_color" />
+        <ImageView
+            android:id="@+id/sdk_media_controller_operation_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/venvy_sdk_media_controller_volume"/>
 
-</RelativeLayout>
+        <ProgressBar
+            android:id="@+id/media_controller_volumn_progressbar"
+            style="@style/media_controller_volumn_progressBar_style"
+            android:layout_below="@id/sdk_media_controller_operation_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <!--<TextView-->
+        <!--android:id="@+id/sdk_media_controller_tv_volume_percentage"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/sdk_media_controller_operation_bg"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textColor="@color/venvy_video_buffer_text_color"/>-->
+
+        </RelativeLayout>
+    </RelativeLayout>

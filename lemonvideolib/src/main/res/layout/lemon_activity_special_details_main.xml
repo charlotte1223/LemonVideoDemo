@@ -134,6 +134,20 @@
                     android:verticalSpacing="5dp"
                     />
             </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lemon_special_ll_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/lemon_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="5dp"
+                android:visibility="gone">
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

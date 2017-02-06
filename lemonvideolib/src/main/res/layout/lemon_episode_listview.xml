@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
 
-    <com.lemon95.lemonvideolib.movie.widget.MyListView
+    <com.lemon95.lemonvideolib.play.widget.MyListView
         android:id="@+id/lemon_episodes_listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

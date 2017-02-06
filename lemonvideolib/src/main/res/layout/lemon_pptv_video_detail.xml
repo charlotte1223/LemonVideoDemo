@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/lemon_video_height">
 
-        <com.lemon95.lemonvideolib.pptv.controller.MyMediaController
+        <com.lemon95.lemonvideo.pptv.controller.MyMediaController
             android:id="@+id/main_controller"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center" />
-        </com.lemon95.lemonvideolib.pptv.controller.MyMediaController>
+        </com.lemon95.lemonvideo.pptv.controller.MyMediaController>
 
         <include
             android:id="@+id/lemon_buy_video_tip_layout"
@@ -153,7 +153,7 @@
 
                         <include layout="@layout/lemon_movie_zone" />
 
-                        <com.lemon95.lemonvideolib.movie.widget.MyListView
+                        <com.lemon95.lemonvideolib.play.widget.MyListView
                             android:id="@+id/lemon_talks_listview"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
