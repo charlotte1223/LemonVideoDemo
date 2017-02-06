@@ -1,0 +1,231 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="lemon_activity_horizontal_margin">16dp</dimen>
+    <dimen name="lemon_activity_vertical_margin">16dp</dimen>
+    <dimen name="lemon_high">50dp</dimen>
+    <dimen name="lemon_top_title_size">18sp</dimen>
+    <dimen name="lemon_top_function_rig">10dp</dimen>
+    <dimen name="lemon_banner_hig">170dp</dimen>
+    <dimen name="lemon_iv_top_rig_size">27dp</dimen>
+    <dimen name="lemon_banner_focus_buttom">3dp</dimen>
+    <dimen name="lemon_iv_type_size">30dp</dimen>
+    <dimen name="lemon_iv_type_size2">48dp</dimen>
+<!--    <dimen name="lemon_iv_type_size">30dp</dimen>-->
+    <dimen name="lemon_type_size">14sp</dimen>
+    <dimen name="lemon_type_top">7dp</dimen>
+    <dimen name="lemon_type_text_top">5dp</dimen>
+    <dimen name="lemon_type_title_hig">25dp</dimen>
+    <dimen name="lemon_type_title_left">8dp</dimen>
+    <dimen name="lemon_type_text_size">15sp</dimen>
+    <dimen name="lemon_iv_rig_more_size">17dp</dimen>
+    <dimen name="lemon_image_height">165dp</dimen>
+    <dimen name="lemon_image_gap">5dp</dimen>
+    <dimen name="lemon_video_size">18sp</dimen>
+    <dimen name="lemon_video_text_top">7dp</dimen>
+    <dimen name="lemon_video_jiaobiao">30dp</dimen>
+    <dimen name="lemon_fab_margin">5dp</dimen>
+    <dimen name="lemon_top_title__back_left">15dp</dimen>
+    <dimen name="lemon_watch_the_record_top">18sp</dimen>
+    <dimen name="lemon_video_msg_size">11sp</dimen>
+    <dimen name="lemon_iv_top_left_size">18dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="lemon_more_item_top">10dp</dimen>
+    <dimen name="lemon_to_back">60dp</dimen>
+    <!--Video recording-->
+    <dimen name="lemon_video_recording_top">21dp</dimen>
+    <dimen name="lemon_video_recording_left">10dp</dimen>
+    <dimen name="lemon_video_recording_spacing">8dp</dimen>
+    <dimen name="lemon_video_recording_textsize">15sp</dimen>
+    <dimen name="lemon_video_recording_high">50dp</dimen>
+    <dimen name="lemon_menu_size">15sp</dimen>
+    <dimen name="lemon_error_size">22sp</dimen>
+    <dimen name="lemon_error_left">18dp</dimen>
+    <dimen name="lemon_error_top">90dp</dimen>
+    <dimen name="lemon_error_tops">20dp</dimen>
+
+    <dimen name="lemon_indicator_right_padding">10dp</dimen>
+    <dimen name="lemon_indicator_corner_radius">12dp</dimen>
+    <dimen name="lemon_indicator_internal_padding">4dp</dimen>
+    <dimen name="lemon_header_footer_left_right_padding">24dp</dimen>
+    <dimen name="lemon_header_footer_top_bottom_padding">12dp</dimen>
+
+    <!--Search content-->
+    <dimen name="lemon_search_content_movies_topsize">10dp</dimen>
+    <dimen name="lemon_search_content_movies_ll_height">170dp</dimen>
+    <dimen name="lemon_search_content_movies_ll_ed_contont_height">120dp</dimen>
+    <dimen name="lemon_search_content_movies_ll_editText_height">50dp</dimen>
+    <dimen name="lemon_search_content_movies_name">15dp</dimen>
+    <dimen name="lemon_search_content_movies_size">40dp</dimen>
+    <dimen name="lemon_search_content_movies_textsize">16sp</dimen>
+    <dimen name="lemon_search_content_movies_tishi_textsize">13sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="lemon_movie_prive">19sp</dimen>
+    <dimen name="lemon_movie_top">15dp</dimen>
+    <dimen name="lemon_movie_name_size">17sp</dimen>
+    <dimen name="lemon_movie_msg_size">14sp</dimen>
+    <dimen name="lemon_pay_logo_size">30dp</dimen>
+    <dimen name="lemon_pay_msg_size">16sp</dimen>
+    <dimen name="lemon_pay_but_size">45dp</dimen>
+
+    <dimen name="lemon_livetv_top_height">50dp</dimen>
+    <dimen name="lemon_livetv_top_title_size">18sp</dimen>
+
+    <!--影视详情-->
+    <dimen name="lemon_video_height">200dp</dimen>
+    <dimen name="lemon_movie_intro_title_height">40dp</dimen>
+    <dimen name="lemon_sub_title_size">16sp</dimen>
+    <dimen name="lemon_sub_title_margin_side">8dp</dimen>
+    <dimen name="lemon_intro_margin_top">8dp</dimen>
+    <dimen name="lemon_intro_size">14sp</dimen>
+    <dimen name="lemon_arrow_size">19dp</dimen>
+    <dimen name="lemon_you_may_like_item_height">170dp</dimen>
+    <dimen name="lemon_maylike_item_image_height">160dp</dimen>
+    <dimen name="lemon_maylike_item_image_width">110dp</dimen>
+    <dimen name="lemon_maylike_item_text_height">39dp</dimen>
+    <dimen name="lemon_maylike_item_padding">5dp</dimen>
+    <dimen name="lemon_maylike_item_size">14sp</dimen>
+    <dimen name="lemon_count_size">13sp</dimen>
+    <dimen name="lemon_comment_size">11sp</dimen>
+    <dimen name="lemon_talk_padding_left">18dp</dimen>
+    <dimen name="lemon_comment_height">30dp</dimen>
+    <dimen name="lemon_commenter_size">14sp</dimen>
+    <dimen name="lemon_comment_content_size">13sp</dimen>
+    <dimen name="lemon_comment_padding_bottom">5dp</dimen>
+    <dimen name="lemon_funny_maylike_item_width">267dp</dimen>
+    <dimen name="lemon_funny_maylike_item_image_height">90dp</dimen>
+    <dimen name="lemon_funny_maylike_item_image_width">167dp</dimen>
+
+    <!--item_RecordAdapter-->
+    <dimen name="lemon_item_watch_record_height">120dp</dimen>
+    <dimen name="lemon_item_watch_record_width">280dp</dimen>
+    <dimen name="lemon_item_watch_record_gao">120dp</dimen>
+    <dimen name="lemon_item_watch_record_iv_height">100dp</dimen>
+    <dimen name="lemon_item_watch_record_iv_width">80dp</dimen>
+    <dimen name="lemon_item_watch_record_iv_mleft">10dp</dimen>
+    <dimen name="lemon_item_watch_record_LL_width">160dp</dimen>
+    <dimen name="lemon_item_watch_record_ll_height">100dp</dimen>
+    <dimen name="lemon_item_watch_record_ll_ll_height">14dp</dimen>
+    <dimen name="lemon_item_watch_record_ll_ll_Top">6dp</dimen>
+    <dimen name="lemon_item_watch_record_ll_tv_size">11sp</dimen>
+    <dimen name="lemon_item_watch_record_ll_tv_marginRight">20dp</dimen>
+
+    <!--not what-->
+    <dimen name="lemon_not_what_ll_tv_wight">150dp</dimen>
+    <dimen name="lemon_not_what_ll_tv_hight">150dp</dimen>
+    <dimen name="lemon_not_what_ll_tv_maight">40dp</dimen>
+    <dimen name="lemon_not_what_ll_tv_textSize">15sp</dimen>
+    <dimen name="lemon_menu_top">3dp</dimen>
+    <dimen name="lemon_live_img_w">125dp</dimen>
+    <dimen name="lemon_live_img_h">75dp</dimen>
+    <dimen name="lemon_live_main_img_h">120dp</dimen>
+    <dimen name="lemon_play_heigth">230dp</dimen>
+    <dimen name="lemon_live_sur_h">240dp</dimen>
+    <dimen name="lemon_camera_but_size">140dp</dimen>
+    <dimen name="lemon_camera_but_text_size">15sp</dimen>
+    <dimen name="lemon_camera_but_size1">120dp</dimen>
+
+    <!--购片提示lemon_video_buy_tip.xml-->
+    <dimen name="lemon_buy_tip_size">18sp</dimen>
+    <dimen name="lemon_buy_button_size">15sp</dimen>
+    <dimen name="lemon_buy_margin_top">20dp</dimen>
+    <dimen name="lemon_buy_button_padding">10dp</dimen>
+    <dimen name="lemon_buy_button_padding_horizen">30dp</dimen>
+    <dimen name="lemon_buy_line_margin">5dp</dimen>
+    <dimen name="lemon_type_size2">12sp</dimen>
+    <dimen name="lemon_live_sur">190dp</dimen>
+
+
+    <!--私人订制 lemon_private_custom-->
+    <dimen name="lemon_private_custom_hi">45dp</dimen>
+    <dimen name="lemon_private_custom_wi">0dp</dimen>
+    <dimen name="lemon_private_custom_tv_size">18sp</dimen>
+    <dimen name="lemon_private_custom_dianji_size">11sp</dimen>
+    <dimen name="lemon_private_custom_dianji_left">15dp</dimen>
+    <dimen name="lemon_fab_margin2">0dp</dimen>
+    <!-- 搜索-->
+    <dimen name="lemon_private_search_left">36dp</dimen>
+    <dimen name="lemon_private_search_left2">10dp</dimen>
+    <dimen name="lemon_private_search_ed_size">14sp</dimen>
+    <dimen name="lemon_private_search_tv_size">12sp</dimen>
+    <dimen name="lemon_private_search_tv_top">20dp</dimen>
+    <dimen name="lemon_private_search_tv_width">62.5dp</dimen>
+    <dimen name="lemon_private_search_tv_height">20dp</dimen>
+    <dimen name="lemon_private_search_tv_left">15dp</dimen>
+    <dimen name="lemon_private_search_tv_left_top">2dp</dimen>
+    <dimen name="lemon_private_search_tv_left_bottom">2dp</dimen>
+    <dimen name="lemon_episode_index_size">18sp</dimen>
+
+    <dimen name="lemon_anniu_index_size">16sp</dimen>
+    <!--反馈feedbock-->
+    <dimen name="lemon_feedbock_size_top">20dp</dimen>
+    <dimen name="lemon_feedbock_size_pann">15dp</dimen>
+    <dimen name="lemon_feedbock_size_ed_wi">180dp</dimen>
+    <dimen name="lemon_feedbock_size_ed_hi">35dp</dimen>
+    <dimen name="lemon_feedbock_size_bt">15sp</dimen>
+    <dimen name="lemon_feedbock_size_Bottom">20dp</dimen>
+    <dimen name="lemon_feedbock_size_Bt_top">60dp</dimen>
+    <dimen name="lemon_feedbock_size_Bt_padd">10dp</dimen>
+    <dimen name="lemon_vip_function_rig">50dp</dimen>
+    <dimen name="lemon_vip_function_hig">230dp</dimen>
+    <dimen name="lemon_feedbock_size_tvext">18sp</dimen>
+    <!--open vip-->
+    <dimen name="lemon_open_vip_hi">80dp</dimen>
+    <dimen name="lemon_open_vip_hi_margin">10dp</dimen>
+    <dimen name="lemon_open_vip_hi_Extra">8dp</dimen>
+    <dimen name="lemon_open_vip_hi_padd">20dp</dimen>
+    <dimen name="lemon_open_vip_hi_left">5dp</dimen>
+    <dimen name="lemon_open_vip_tv_size">13sp</dimen>
+    <dimen name="lemon_open_vip_tv_dara">15sp</dimen>
+    <dimen name="lemon_open_vipjixudingzhi_dara">18sp</dimen>
+
+
+    <dimen name="lemon_open_imview_dara_wi">117dp</dimen>
+    <dimen name="lemon_open_imview_dara_hi">90dp</dimen>
+    <dimen name="lemon_open_imview_hi">90dp</dimen>
+
+
+    <dimen name="lemon_open_imview_my_top">30dp</dimen>
+    <dimen name="lemon_open_imview_my_top2">50dp</dimen>
+    <dimen name="lemon_search_top">35dp</dimen>
+    <dimen name="lemon_search_tv_top">10dp</dimen>
+    <dimen name="lemon_search_tv_heji">18sp</dimen>
+    <dimen name="lemon_pay_tv_heji">13sp</dimen>
+    <dimen name="lemon_pay_tv_sz">12sp</dimen>
+    <dimen name="lemon_pay_tv_maleft">25dp</dimen>
+    <dimen name="lemon_pay_tv_ma_top">90dp</dimen>
+    <dimen name="lemon_zhuce_wi">100dp</dimen>
+    <dimen name="lemon_watch_record_wi">90dp</dimen>
+    <dimen name="lemon_watch_record_hi">70dp</dimen>
+    <dimen name="lemon_watch_record_ll_hi">100dp</dimen>
+
+    <dimen name="lemon_vipactivity_top_16">10dp</dimen>
+    <dimen name="lemon_vipactivity_top_30">20dp</dimen>
+    <dimen name="lemon_vipactivity_top_15">7dp</dimen>
+    <dimen name="lemon_vipactivity_top_20">10dp</dimen>
+    <dimen name="lemon_vipactivity_top_10">5dp</dimen>
+    <dimen name="lemon_vipactivity_top_3">3dp</dimen>
+
+    <dimen name="lemon_quality_textsize">15sp</dimen>
+    <dimen name="lemon_episode_item_height">80dp</dimen>
+    <dimen name="lemon_episode_image_height">60dp</dimen>
+    <dimen name="lemon_episode_image_width">100dp</dimen>
+    <dimen name="lemon_drawable_padding">5dp</dimen>
+    <dimen name="lemon_variety_episode_title_sz">13sp</dimen>
+    <dimen name="lemon_variety_episode_hot_sz">13sp</dimen>
+    <dimen name="lemon_variety_padding_5dp">5dp</dimen>
+    <dimen name="lemon_main_padding_5dp">5dp</dimen>
+    <dimen name="lemon_main_ll_height">25dp</dimen>
+    <dimen name="lemon_main_textSize">12sp</dimen>
+    <dimen name="lemon_share_ma_top">12dp</dimen>
+    <dimen name="lemon_main_ma_top">70dp</dimen>
+    <dimen name="lemon_shortvideo_maylike_image_height">60dp</dimen>
+
+    <!--ijk-->
+
+    <dimen name="ijk_horizontal_margin">@dimen/activity_horizontal_margin</dimen>
+    <dimen name="ijk_vertical_margin">@dimen/activity_vertical_margin</dimen>
+    <!--ijk end-->
+    <dimen name="lemon_banner_iv_hig">53.5dp</dimen>
+</resources>

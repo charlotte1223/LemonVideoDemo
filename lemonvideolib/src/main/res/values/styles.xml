@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppStyle" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/lemon_you_text_colorlu</item>
+        <!--工具栏样式样式-->
+        <item name="colorPrimaryDark">@color/lemon_top_bg</item>
+        <item name="colorControlNormal">@color/lemon_top_bg</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <!-- <style name="AppLoginStyle" parent="Theme.AppCompat.Light">
+         <item name="colorAccent">#FFF</item>
+         &lt;!&ndash;工具栏样式样式&ndash;&gt;
+         <item name="android:colorPrimaryDark">#FFF</item>
+         <item name="android:colorControlNormal">#FFF</item>
+     </style>-->
+
+    <style name="AppVideoStyle" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorAccent">@color/lemon_you_text_colorlu</item>
+        <!--工具栏样式样式-->
+        <item name="colorPrimaryDark">@color/lemon_transparent</item>
+        <item name="colorControlNormal">@color/lemon_top_bg</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <!--顶部标题样式-->
+    <style name="top_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_top_title_size</item>
+        <item name="android:textColor">@color/lemon_white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--子模块标题侧边竖线样式-->
+    <style name="lemon_side_title_line">
+        <item name="android:layout_width">3dp</item>
+        <item name="android:layout_height">@dimen/lemon_type_title_hig</item>
+        <item name="android:background">@color/lemon_top_bg</item>
+        <item name="android:layout_marginLeft">@dimen/lemon_type_title_left</item>
+    </style>
+
+    <!--顶部右侧功能样式-->
+    <style name="top_function_rig">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_top_title_size</item>
+        <item name="android:textColor">@color/lemon_white</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/lemon_top_function_rig</item>
+    </style>
+
+    <!--菜单栏目文字样式-->
+    <style name="main_type_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_type_size</item>
+        <item name="android:textColor">@color/lemon_type_color</item>
+        <item name="android:layout_marginTop">@dimen/lemon_type_text_top</item>
+    </style>
+
+    <!--菜单栏目副文字样式-->
+    <style name="main_type_text2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_type_size2</item>
+        <item name="android:textColor">@color/lemon_type_color</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <!--影片名称文字样式-->
+    <style name="main_video_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_video_size</item>
+        <item name="android:textColor">@color/lemon_type_color</item>
+        <item name="android:layout_marginTop">@dimen/lemon_video_text_top</item>
+    </style>
+
+    <!--影片描述文字样式-->
+    <style name="lemon_main_video_msg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_video_msg_size</item>
+        <item name="android:textColor">@color/lemon_white</item>
+        <item name="android:layout_marginTop">@dimen/lemon_video_text_top</item>
+    </style>
+
+    <!--顶部左侧功能样式-->
+    <style name="lemon_top_function_left">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/lemon_type_text_size</item>
+        <item name="android:textColor">@color/lemon_white</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:drawablePadding">@dimen/lemon_fab_margin</item>
+    </style>
+
+    <!--视频记录文字片样式-->
+    <style name="lemon_watch_the_record_TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/lemon_video_recording_textsize</item>
+        <item name="android:textColor">@color/lemon_record_tv</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/lemon_video_recording_spacing</item>
+    </style>
+
+    <!--视频记录按钮右图片样式-->
+    <style name="lemon_watch_the_record_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/lemon_video_recording_left</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/lemon_gengduo</item>
+    </style>
+
+    <!--线的样式-->
+    <style name="lemon_line">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.2dp</item>
+        <item name="android:background">@color/lemon_record_line</item>
+    </style>
+
+    <!--线的样式-->
+    <style name="lemon_record_rl_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lemon_video_recording_high</item>
+        <item name="android:background">@color/lemon_white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/lemon_video_recording_left</item>
+        <item name="android:paddingRight">@dimen/lemon_video_recording_left</item>
+    </style>
+
+    <style name="NoTitleTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="lemon_sub_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/lemon_movie_intro_title_height</item>
+        <item name="android:layout_marginLeft">@dimen/lemon_sub_title_margin_side</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/lemon_sub_title_size</item>
+        <item name="android:textColor">@color/lemon_sub_title</item>
+    </style>
+
+    <style name="lemon_movie_intro">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/lemon_intro_size</item>
+        <item name="android:textColor">@color/lemon_movie_intro</item>
+    </style>
+
+    <style name="lemon_horizen_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.2dp</item>
+        <item name="android:background">@color/lemon_record_line</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <!-- <item name="android:windowIsTranslucent">true</item>
+         <item name="android:windowContentOverlay">@null</item>
+         <item name="android:backgroundDimEnabled">false</item>-->
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:windowBackground">@drawable/lemon_dialog_bg</item>-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <!--协议标题-->
+    <style name="lemon_agreement_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--协议内容-->
+    <style name="lemon_agreement_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

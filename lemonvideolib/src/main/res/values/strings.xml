@@ -1,0 +1,433 @@
+<resources>
+    <!--  <string name="app_name">国卡通</string>
+      <string name="lemon_video">国卡通</string>-->
+
+    <string name="lemon_video">影檬</string>
+    <string name="app_name">影檬</string>
+
+    <string name="lemon_is_positive">确定</string>
+    <string name="lemon_movie">电影</string>
+    <string name="lemon_tv">电视剧</string>
+    <string name="lemon_live">直播</string>
+    <string name="lemon_variety">综艺</string>
+    <string name="lemon_yiyuan">2元看片</string>
+    <string name="lemon_sport">体育</string>
+    <string name="lemon_more">更多</string>
+    <string name="lemon_mores">更多</string>
+    <string name="lemon_video_name"></string>
+    <string name="lemon_video_msg">视频已下架</string>
+    <string name="lemon_live_name">LIVE热播</string>
+    <string name="lemon_recommend_name">电影</string>
+    <string name="lemon_hot_tv">热门剧场</string>
+    <string name="lemon_special">特色专题</string>
+    <string name="lemon_main_title">社区影院</string>
+    <string name="lemon_sec_msg">渠道号不能为空</string>
+    <string name="lemon_net_error">网络错误</string>
+    <string name="lemon_listview_load">正在努力加载中.....</string>
+    <string name="lemon_back">返回</string>
+
+
+    <string name="lemon_refresh">下拉刷新</string>
+    <string name="lemon_more_loading">加载更多.....</string>
+    <string name="lemon_Select">全选</string>
+    <string name="lemon_delete">删除</string>
+    <string name="lemon_buy_video_recording">收藏记录</string>
+    <string name="lemon_buy_video_er_recording">暂时还没有收藏记录，赶紧去收藏吧~</string>
+    <string name="lemon_watch_the_record">观看记录</string>
+    <string name="lemon_watch_the_er_record">暂时还没有观看记录，赶紧去观影吧~</string>
+    <string name="lemon_sharing_of_records">分享记录</string>
+    <string name="lemon_sharing_of_video">个人管理</string>
+    <string name="lemon_sharing_of_fankui">意见反馈</string>
+    <string name="lemon_function">编辑</string>
+    <string name="lemon_tijiao">提交</string>
+    <string name="lemon_cancel">取消</string>
+    <string name="lemon_kongbai">空空如也，什么都没有</string>
+    <string name="lemon_message_kongbai">暂无消息记录</string>
+
+
+    <!--Private custom-->
+    <string name="lemon_private_custom_my">我要求片</string>
+    <string name="lemon_records_custom">求片记录</string>
+    <string name="lemon_records_my_custom">我要求片</string>
+    <string name="lemon_records_my_custom_dingzhi">正在申请...</string>
+    <string name="lemon_records_my_custom_shengming">声明</string>
+    <string name="lemon_records_my_custom_kefu">联系客服&#160;4007-775-779</string>
+    <string name="lemon_records_my_custom_mianze">免责声明</string>
+    <string name="lemon_records_my_custom_problem">常见问题解答</string>
+    <string name="lemon_customize_tip">您求片申请的影片已提交成功,小二会在48小时内给您短信回复。</string>
+    <!--Search content-->
+    <string name="lemon_search_content_movies_title_content">求片结果</string>
+    <string name="lemon_search_content_movies_title_chenggong">提交成功</string>
+    <string name="lemon_search_content_movies_name">影视名称：</string>
+    <string name="lemon_search_content_movies_CustomMovies">我要求片</string>
+    <string name="lemon_search_content_movies_find">填写您想看的影视信息,小二会尽力为您寻得.....</string>
+    <string name="lemon_search_content_movies_movie">电影</string>
+    <string name="lemon_search_content_movies_tv">电视剧</string>
+    <string name="lemon_search_content_movies_other">其他</string>
+    <string name="lemon_search_content_movies_other_queren">确认求片</string>
+    <string name="lemon_search_content_movies_determine">提交</string>
+    <string name="lemon_search_content_movies_tishiname">请输入影片名称</string>
+    <string name="lemon_search_content_movies_noyingpian">以上没有要找的影片</string>
+    <string name="lemon_search_content_movies_xiangkan">我要求片</string>
+    <string name="lemon_search_content_movies_prompt">温馨提示：</string>
+    <string name="lemon_search_content_listFragment_prompt">暂时还没有求片记录，赶紧去求片吧~</string>
+
+    <string name="lemon_search_content_movies_prompt1">1.我要求片是本平台给用户提供的个人求片功能，在影片库里没能搜索到的影片，都可以通过我要求片输入影片名进行求片；
+</string>
+    <string name="lemon_search_content_movies_prompt2">2.成功提交求片申请后，我们将在48小时内通过人工方式，第一时间帮您搜寻该影片资源，并实现一对一推送观看，最终的推送结果我们会以短信形式进行通知；
+</string>
+    <string name="lemon_search_content_movies_prompt7">3.求片成功的影片只能试看5分钟，如需继续观看，需支付2元作为搜寻影片资源的服务费；
+</string>
+    <string name="lemon_search_content_movies_prompt4">4.成功推送的影片自推送起有效期为72小时，收到推送影片的用户记得抓紧时间观看；
+</string>
+    <string name="lemon_search_content_movies_prompt5">5.请注意输入正确的完整片名，例：星球大战7原力觉醒。对于同名或版本过多等影片，请在备注栏填写影片相关信息，方便精准搜索；
+</string>
+    <string name="lemon_search_content_movies_prompt6">6.对于求片需求我们将尽力帮你搜索影片资源，并及时推送，若搜索无果，敬请见谅，另针对违规影片需求，本平台概不受理；
+</string>
+    <string name="lemon_search_content_movies_prompt8">7.本平台针对用户需求提供影视求片服务，若内容涉及影片版权问题，烦请版权方及时告知我们，我们将及时做出下架处理；
+</string>
+    <string name="lemon_search_content_movies_prompt3">我的求片记录</string>
+    <string name="lemon_search_content_tijiao_content">您的求片申请已提交，</string>
+    <string name="lemon_search_content_tijiao_jixu">继续求片</string>
+    <string name="lemon_search_content_tijiao_xiaohuoban">柠檬的小伙伴们会在24小时内给您回复</string>
+    <string name="lemon_search_content_tijiao_tiaozhuan">3秒后自动跳转到求片记录界面</string>
+    <string name="lemon_search_content_tijiao_chenggong">求片成功</string>
+    <string name="lemon_search_content_tijiao_zhong">处理中</string>
+    <string name="lemon_search_content_tijiao_shibai">求片失败</string>
+    <string name="lemon_search_content_liebiao">影视列表</string>
+    <string name="lemon_search_content_jindu">求片状态</string>
+    <string name="lemon_search_content_dianji">点击量：</string>
+    <string name="lemon_search_content_youxiao">有效期：</string>
+    <string name="lemon_search_content_pianming_kong">片名不能为空</string>
+    <string name="lemon_search_content_jianjie_kong">简介内容不能为空</string>
+    <string name="lemon_search_content_dingzhi">我的求片</string>
+    <string name="lemon_search_content_dibu">已到底部</string>
+    <string name="lemon_search_content_guankan">点击观看</string>
+    <string name="lemon_search_content_kan">观看</string>
+    <string name="lemon_search_content_quanxuan">全选</string>
+    <string name="lemon_search_content_quanbuxuan">取消全选</string>
+    <string name="lemon_search_content_delete">删除中...</string>
+    <string name="lemon_search_content_add">加载中...</string>
+
+
+    <string name="lemon_short_video">短视频</string>
+    <string name="lemon_donghua">动漫</string>
+    <string name="lemon_lvyou">旅游</string>
+    <string name="lemon_vip">VIP专享</string>
+    <string name="lemon_shishang">时尚</string>
+    <string name="lemon_shenghuo">生活</string>
+    <string name="lemon_caijin">财经</string>
+    <string name="lemon_gaoxiao">短视频</string>
+    <string name="lemon_jilupian">记录片</string>
+    <string name="lemon_youxi">游戏</string>
+    <string name="lemon_qingzi">少儿</string>
+    <string name="lemon_qiche">汽车</string>
+    <string name="lemon_yinyue">音乐</string>
+    <string name="lemon_yuanchang">原创</string>
+    <string name="lemon_lvse">绿色</string>
+    <string name="lemon_mingxi">明星</string>
+    <string name="lemon_redian">热点</string>
+    <string name="lemon_yiyuanqu">一元区</string>
+    <string name="lemon_error1">糟糕！！好像出错了</string>
+    <string name="lemon_error2">1、网络信号弱</string>
+    <string name="lemon_error3">2、找不到服务器</string>
+    <string name="lemon_error4">3、找不到页面</string>
+    <string name="lemon_error_title">可能原因：</string>
+    <string name="lemon_msg2">没有更多影视</string>
+    <string name="nullstring"/>
+
+    <string name="lemon_pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="lemon_pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="lemon_pull_to_refresh_refreshing_label">正在载入…</string>
+
+    <string name="lemon_pull_to_refresh_from_bottom_pull_label">下拉刷新…</string>
+    <string name="lemon_pull_to_refresh_from_bottom_release_label">放开以刷新…</string>
+    <string name="lemon_pull_to_refresh_from_bottom_refreshing_label">正在载入…</string>
+    <string name="lemon_pay">支付</string>
+    <string name="lemon_movie_prive">¥0.0 元</string>
+    <string name="lemon_pay_movie_msg">支付后影片永久免费观看</string>
+    <string name="lemon_pay_wx">微信支付</string>
+    <string name="lemon_pay_zfb">支付宝支付</string>
+    <string name="lemon_pay_method">支付方式</string>
+    <string name="lemon_to_pay">去支付</string>
+    <string name="lemon_login_msg">登陆失败,用户信息有误</string>
+
+    <string name="lemon_livetv_name">电视直播</string>
+    <string name="lemon_bu">已到底部</string>
+
+    <string name="lemon_movie_director">导演:</string>
+    <string name="lemon_movie_Starring">主演:</string>
+    <string name="lemon_custom_made">我要求片</string>
+    <string name="lemon_hot_comment">热门评论</string>
+
+    <string name="lemon_buy_video_tip">试看结束,此片需要购买才可观看</string>
+    <string name="lemon_pay_for_custom_tip">本片您已定制,尚未付费</string>
+    <string name="lemon_change_url">切换线路</string>
+    <string name="lemon_feedback">&#160;&#160;反馈&#160;&#160;</string>
+    <string name="lemon_video_load_error_tip">加载出错啦,请切换线路观看或提交反馈</string>
+    <string name="lemon_pay_for_single">一元购买单片</string>
+    <string name="lemon_pay_for_day">3元包日</string>
+    <string name="lemon_pay_for_serials">5元购买单部</string>
+    <string name="lemon_pay_for_customize">去付费</string>
+    <string name="lemon_you_may_like">猜您喜欢</string>
+    <string name="lemon_cannot_play_error">播放出错啦,换个片子吧...</string>
+    <string name="lemon_play_url_empty">播放地址无效</string>
+    <string name="lemon_network_error">请检查您的手机网络</string>
+    <string name="lemon_unconnect_tip">网络未连接,请设置您的网络</string>
+    <string name="lemon_not_wifi_tip">当前使用的是非wifi网络,继续播放将会产生流量费用。</string>
+    <string name="lemon_video_refresh">刷新重试</string>
+    <string name="lemon_continue_play">继续播放</string>
+    <string name="lemon_error_feedback">问题反馈</string>
+    <string name="lemon_to_be_vip">开通VIP会员</string>
+    <string name="lemon_login_tip">请先登录</string>
+    <string name="lemon_free_watch_tip">免费试看前5分钟,观看完整视频请</string>
+    <string name="lemon_buy_now">立即购买</string>
+    <string name="lemon_no_more_date">没有更多评论</string>
+    <string name="video_unshelve_tip">影片太火了，请稍后重试</string>
+
+    <string name="lemon_camera_but">按住拍</string>
+    <string name="lemon_pay_error">订单生成失败，请稍后再试</string>
+    <string name="lemon_movie_zone">影视圈</string>
+    <string name="lemon_comment_hint">我来说几句</string>
+    <string name="lemon_comment_empty">请输入要说的话</string>
+    <string name="lemon_comment">评论</string>
+    <string name="lemon_reply">回复</string>
+    <string name="lemon_camera_t">上滑取消</string>
+    <string name="lemon_video_send">发布视频</string>
+    <string name="lemon_msg_title">视频标题</string>
+    <string name="lemon_msg">填写视频标题,不超过15个字符</string>
+    <string name="lemon_msg_t">视频描述,不超过225个字符</string>
+    <string name="lemon_but_submit">提交</string>
+    <string name="lemon_title_msg">标题不能为空</string>
+    <string name="lemon_content_msg">视频描述不能为空</string>
+    <string name="lemon_video_error_msg">视频错误，请重新拍摄</string>
+    <string name="lemon_sub_net_error">提交失败，网络异常</string>
+    <string name="lemon_wuye_error_msg">物业视频获取失败</string>
+    <string name="lemon_no_more_data">没有更多了</string>
+
+    <!--特色专题-lemon_special_feature-->
+    <string name="lemon_special_feature">特色专题</string>
+    <string name="lemon_special_feature_jieshao">专题介绍</string>
+    <string name="lemon_hint">提示</string>
+    <string name="lemon_login_hot_msg">热门剧场获取失败</string>
+    <string name="lemon_video_msg_r">视频太短请重新拍摄</string>
+    <string name="record_camera_progress_message">正在转码…</string>
+    <string name="record_video_transcoding_faild">视频转码失败</string>
+    <string name="lemon_zan_success">赞成功</string>
+    <string name="lemon_zan_cancel">已取消赞</string>
+    <string name="lemon_set_failed">操作失败</string>
+    <string name="lemon_published">发表成功</string>
+    <string name="lemon_comment_success">评论成功</string>
+    <string name="lemon_comment_failed">评论失败</string>
+    <string name="lemon_add_movie_talk">发表</string>
+    <string name="lemon_episodes">剧集</string>
+    <string name="lemon_episode_choose">剧集</string>
+    <string name="lemon_loading_data">加载数据中...</string>
+
+
+    <string name="lemon_yingshisousuo">影片名/主演/导演</string>
+    <string name="lemon_resoubang">热搜榜</string>
+    <string name="lemon_resoubang_wu">卖噶的...该影片暂时没有上架，试试求片功能吧,小二累死也会帮你搜寻该影片资源，并在第一时间一对一推送给你观看噢</string>
+    <string name="lemon_resoubang_wu_dingzhi">我要求片</string>
+    <string name="lemon_resoubang_wu_dingzhi2">我要\r\n求片</string>
+
+    <string name="lemon_resoubang_fankui_fankui">反馈已提交</string>
+    <string name="lemon_resoubang_fankui_chuli">小柠会尽快处理</string>
+    <string name="lemon_resoubang_fankui_fanhui">3S后返回</string>
+    <string name="lemon_resoubang_fankui_kong">亲,反馈不能为空哦!</string>
+    <string name="lemon_search_ed">爱搜索</string>
+    <string name="lemon_video_all">全部</string>
+
+    <string name="lemon_open_vip_tishi">尊敬的用户，检测到你当前还未开通视频会员功能，如需观看更多精彩内容，请先开通会员功能哦。</string>
+    <string name="lemon_open_vip_fuwu">会员服务介绍：</string>
+    <string name="lemon_open_vip_neirong">开通会员可观看更多VIP影片。</string>
+    <string name="lemon_open_vip_putong">1.包天会员，收费%1$s元，自开通起24小时内可免费观看所有VIP影片（无数量限制）</string>
+    <string name="lemon_open_vip_gaoji">2.包月会员，收费%1$s元，自开通起1个月内可免费观看所有VIP影片（无数量限制）</string>
+    <string name="lemon_open_vip_openputong">开通会员</string>
+    <string name="lemon_shengming_tv">免责声明：</string>
+    <string name="lemon_shengming_tv_problem">影片观看中常见问题解答（FAQ）</string>
+    <string name="lemon_shengming_tv_problem_yi_wen">一、影片出现无法播放或解析异常怎么办？</string>
+    <string name="lemon_shengming_tv_problem_er_wen">二、电影可以下载或缓存吗？</string>
+    <string name="lemon_shengming_tv_problem_san_wen">三、为什么点击删除播放记录，提示网络异常？</string>
+    <string name="lemon_shengming_tv_problem_si_wen">四、什么是我要求片？</string>
+    <string name="lemon_shengming_tv_problem_wu_wen">五、我要求片已收到成功推送的短信，为什么我要求片影片库里面查询不到
+该部影片？</string>
+    <string name="lemon_shengming_tv_problem_liu_wen">六、我要求片记录怎么删除？</string>
+    <string name="lemon_shengming_tv_problem_qi_wen">七、观看我要求片的影片需要收费吗？</string>
+    <string name="lemon_shengming_tv_problem_ba_wen">八、如何开通会员？</string>
+    <string name="lemon_shengming_tv_problem_jiu_wen">九、如何查询会员到期时间？</string>
+    <string name="lemon_shengming_tv_problem_shi_wen">十、在观影途中恰巧过了会员到期时间还能正常观看吗？</string>
+    <string name="lemon_shengming_tv_problem_yi_da">答：在影片播放界面的右下方点击【切换线路】按钮，此时会出现“切换成功”提示，此时再点击播放按钮即可正常播放；点击一次切换线路还是无法播放的，可继续点击【切换线路】播放，以此类推！</string>
+    <string name="lemon_shengming_tv_problem_yi_da2">注： 以上方法只针对非网络环境引起的无法播放，在点击【切换线路】时如遇网络延迟，可能需要等待1-5秒，待出现“解析成功”提示后，方才是切换有效；
+如果以上方法还是无法解决影片正常播放，请在在线影院首页进入个人管理页面点击意见反馈给我们留言，我们会在第一时间修复无法播放的影片；留言格式：不能播放+影片名；</string>
+    <string name="lemon_shengming_tv_problem_er_da">答：影视平台暂不支持电影下载或缓存功能（后续会更新下载缓存功能）；</string>
+    <string name="lemon_shengming_tv_problem_san_da">答：未注册的用户无法删除播放记录，导致点击删除时系统提示网络异常，如需删除播放记录，请先注册；</string>
+    <string name="lemon_shengming_tv_problem_si_da">答：我要求片是影视平台提供给用户的一个个人求片功能，在爱搜索没能搜索到的影片，都可以通过我要求片输入影片名进行求片，影视平台将在48小时内通过人工方式，第一时间帮你搜寻该影片资源，并实现一对一推送观看，最终的推送结果我们会以短信形式进行通知，请留意短信！
+</string><string name="lemon_shengming_tv_problem_si_da2">
+注：使用我要求片功能必须通过注册；成功推送的影片自推送起有效期为72小时，收到推送影片的用户记得抓紧时间观看噢！</string>
+    <string name="lemon_shengming_tv_problem_wu_da">答：成功推送的影片自推送起有效期为72小时，超过有效期72小时，系统将自动删除我要求片影片库里的推送电影，所以收到推送影片的用户记得在72小时之内进行观看噢！</string>
+    <string name="lemon_shengming_tv_problem_liu_da">答:我要求片的影片具有时效性，所以我要求片的记录是无法手动删除的，从成功推送时起72小时后系统将会自动删除求片记录；</string>
+    <string name="lemon_shengming_tv_problem_qi_da">答：求片成功的影片只能试看5分钟，如需继续观看，需额外打赏2元作为搜寻该影片资源的人工服务费，该服务的收费不与会员服务共享；</string>
+    <string name="lemon_shengming_tv_problem_ba_da">答：在影视首页右上角小图标点击选择进入个人管理页面，点击开通会员或直接在观看会员影片时点击开通会员；
+注：开通会员前需注册登录；</string>
+    <string name="lemon_shengming_tv_problem_jiu_da">答：进入个人管理页面，在个人管理页面中会显示当前会员到期时间；</string>
+    <string name="lemon_shengming_tv_problem_shi_da">答：可以的，假设你的会员到期时间是4月23日16点50分，在16点49分点击开始观看VIP会员影片，只要在观影途中不退出，是能完整看完该部影片的，如果过了有效期后在观影途中退出，是无法重新进入观看的。</string>
+<string name="lemon_shengming_tv1">1、本平台影视资源已取得相关版权方授权，并只提供在线链接播放及搜寻服务，不做存储和保留，如对版权归属问题存有争议，请及时联系我们并提供相应版权证明，我们会在收到反馈24小时内与进行审查核实，一经核实存在版权冲突或归属争议，我们将及时屏蔽相应内容，
+</string>
+    <string name="lemon_shengming_tv2">2、版权问题，商务合作请以邮件形式发送至：lemon@clublemon.com 。</string>
+    <string name="lemon_shengming_tv3">
+3、由于影片资源来自互联网，如涉及到版权问题请相关版权方及时联系我们并提供相应版权证明，我们会在收到反馈24小时内屏蔽相应内容
+        </string>
+    <string name="lemon_shengming_tv4">
+4、版权问题，商务合作请致电0755-82211852，或以邮件形式发送至emon@clublemon.com。
+</string>
+    <string name="lemon_dingzhi_tishi">求片提示</string>
+    <string name="lemon_dingzhi_vip_tishi"> 尊敬的用户，本功能服务仅对会员开放哦，如需使用我要求片，请先开通会员！</string>
+    <string name="lemon_dingzhi_fuwu">求片介绍：</string>
+    <string name="lemon_dingzhi_putong">该服务是柠檬看客针对会员用户提供的增值服务，在影片库中搜索不到的影片，可通过我要求片向我们求片，我们将尽力帮您寻找片源，并进行人工一对一推送。</string>
+
+
+    <string name="lemon_vip_xieyi_fuwu">尊敬的用户：</string>
+    <string name="lemon_vip_xieyi_fuwu1">1、本协议是您与本平台之间关于会员服务的法律协议。</string>
+    <string name="lemon_vip_xieyi_fuwu2">2、一旦注册开通、使用本平台相关服务及产品，即表示接受协议的各项条件约束。如果您不同意协议的条件，则不能获得使用本产品会员服务的权力。在您开通和使用会员之前，请务必阅读此《协议》，明确会员服务内容、权限及收费标准，任何与《协议》有关的服务内容等都应按本协议的条款而授予您，同时本《协议》亦适用于任何有关本服务的后期更新升级，另开通后会员权限不得进行转赠、租售或另作其他商业用途。</string>
+    <string name="lemon_vip_xieyi_fuwu3">3、对于随本服务一起提供的任何第三方软件及服务（包括第三方插件），您有权选择是否使用，如果您选择使用此类第三方软件或服务，则这些使用权限将受到第三方许可协议的约束，此类协议约束与本平台无关，同时本平台不对任何第三方软件及服务负责。</string>
+
+    <string name="lemon_search_tv">立即续费</string>
+    <string name="lemon_search_tishi">以下没有想要的影片，可点击我要求片获取您的专属影片！！！</string>
+    <string name="lemon_search_goumai">购买方式：</string>
+    <string name="lemon_search_shijian">购买时间：</string>
+    <string name="lemon_search_youxiao">到期时间：</string>
+    <string name="lemon_search_yindao">您还不是会员,点击"立即开通"开通会员吧</string>
+    <string name="lemon_pay_heji">合计支付</string>
+    <string name="lemon_pay_xieyi">服务协议</string>
+    <string name="lemon_pay_vip">VIP套餐</string>
+    <string name="lemon_pay_yitian">1天</string>
+    <string name="lemon_pay_dingzhi">我要求片服务/次</string>
+    <string name="lemon_pay_dangtian">购买包天,当天付费影片随便看</string>
+    <string name="lemon_pay_yici">成功求片一次</string>
+    <string name="lemon_pay_one">一次</string>
+    <string name="lemon_pay_yiyue">1个月</string>
+    <string name="lemon_pay_suibian">购买一个月,一个月内付费影片随便看，</string>
+    <string name="lemon_pay_pptvyiyue">并赠送PPTV会员一个月</string>
+    <string name="lemon_pay_liuyue">6个月</string>
+    <string name="lemon_pay_liuyue_suibian">购买六个月,六个月内付费影片随便看，</string>
+    <string name="lemon_pay_liuyue_zengsong">并赠送PPTV会员六个月</string>
+    <string name="lemon_pay_yinian">1年</string>
+    <string name="lemon_pay_yinian_suibian">购买包年,全年内付费影片随便看，</string>
+    <string name="lemon_pay_yinian_baonian">并赠送PPTV会员一年</string>
+    <string name="lemon_pay_yiyuan">¥2元</string>
+    <string name="lemon_pay_sanyuan">¥2元</string>
+    <string name="lemon_pay_yueyuan">¥24元</string>
+    <string name="lemon_pay_banyuan">¥120元</string>
+    <string name="lemon_pay_nian">¥180元</string>
+    <string name="lemon_pay_zhuce_pptv">该影片资源由PPTV提供，您当前还不是PPTV用户，如需使用服务需完成注册。</string>
+    <string name="lemon_pay_zhuce_xinxi">个人信息</string>
+    <string name="lemon_pay_zhuce_shoujihao">手机号</string>
+    <string name="lemon_pay_zhuce_shoujihao_hi">默认登录的手机号</string>
+    <string name="lemon_pay_zhuce_shoujihao_yanzheng">验证码</string>
+    <string name="lemon_pay_zhuce_shoujihao_yanzheng_tianxie">填写验证码</string>
+    <string name="lemon_pay_zhuce_shoujihao_yanzheng_fasong">发送验证码</string>
+    <string name="lemon_pay_zhuce_mima">密码</string>
+    <string name="lemon_pay_zhuce_mima_tishi">不少于6位</string>
+    <string name="lemon_pay_zhuce_zhuce">注册</string>
+    <string name="lemon_dingzhi_denglu">立即登录</string>
+    <string name="lemon_dingzhi_denglu_quxiao">取消</string>
+    <string name="lemon_dingzhi_denglu_tishi">检查到您当前还未登录，求片需要登录后才可使用哦！</string>
+    <string name="lemon_dingzhi_denglu_fuwu">求片介绍：</string>
+    <string name="lemon_dingzhi_denglu_fuwu_neirong">我要求片是本平台给用户提供的个人求片功能，在影片库中搜索不到的影片，我们将通过人工方式帮你搜寻该影片资源（势必翻转整个地球），并实现一对一推送观看。</string>
+    <string name="lemon_dingzhi_tishi_fuwu_neirong3"> 如觉得影片很赞，想继续观看的话，需打赏2元给小二作为辛苦费噢~（翻箱倒柜的找资源，小二也不容易啊~）</string>
+    <string name="lemon_dingzhi_tishi_fuwu_neirong2">PS：求片成功的影片只能观看5分钟哦~</string>
+    <string name="lemon_dingzhi_tishi_fuwu_neirong1">全国只有2%的人知道这个求片功能，您真幸运呢~</string>
+    <string name="lemon_dingzhi_queren_fuwu">为方便精准推送，请再次输入正确片名及影片相关信息</string>
+    <string name="lemon_dingzhi_queren_fuwu2">为精准搜寻影片，请输入影片相关信息,如上映时间、演员、版本等</string>
+
+    <string name="lemon_unshelve_tip">此片已下架</string>
+    <string name="lemon_get_it">知道了</string>
+    <string name="lemon_get_zaiciqueren">再次确认</string>
+    <string name="lemon_get_jixuqiupian">继续求片</string>
+    <string name="lemon_get_qusousuo">去搜索</string>
+    <string name="lemon_get_neirong_null">搜索内容不能为空</string>
+    <string name="lemon_feed_tishi">有什么牢骚，吐槽，欢迎砸来，小二会揪着攻城狮努力改进哒~</string>
+    <string name="lemon_collect_record">我的收藏</string>
+    <string name="scan_barcode_title">条形码扫描</string>
+    <string name="scan_qrcode_title">二维码扫描</string>
+    <string name="scan_allcode_title">二维码或条形码扫描</string>
+    <string name="scan_barcode_hint">将条形码对入取景框，即可自动扫描</string>
+    <string name="scan_qrcode_hint">将二维码对入取景框，即可自动扫描</string>
+    <string name="scan_allcode_hint">将二维码或条形码对入取景框，即可自动扫描</string>
+
+    <string name="lemon_default_nickname">檬娃</string>
+    <string name="lemon_complete">完成</string>
+    <string name="lemon_no_data_tip">小编很懒，什么也没留下</string>
+    <string name="lemon_skip_ad">&#160;|&#160;跳过广告</string>
+
+    <!--ijk-->
+    <string name="N_A">N/A</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sample">Sample</string>
+    <string name="recent">Recent</string>
+    <string name="settings">Settings</string>
+    <string name="tracks">Tracks</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_render">Render</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="show_info">Info</string>
+    <string name="vdec">vdec</string>
+    <string name="fps">fps</string>
+    <string name="v_cache">v-cache</string>
+    <string name="a_cache">a-cache</string>
+    <string name="load_cost">load-cost</string>
+    <string name="seek_cost">seek_cost</string>
+    <string name="seek_load_cost">seek_load_cost</string>
+    <string name="tcp_speed">tcp_speed</string>
+    <string name="bit_rate">bit_rate</string>
+
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi__selected_audio_track">*</string>
+
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_error_button">OK</string>
+
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+    <!--ijk end-->
+</resources>
+
+

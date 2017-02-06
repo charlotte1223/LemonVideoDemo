@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- <color name="lemon_top_bg">#e95e02</color>
+   <color name="lemon_top_se">#2EB2F9</color>
+    <color name="lemon_you_text_colorlu">#e95e02</color>
+    <color name="lemon_dingzhi_start_back">#eee95e02</color>-->
+
+    <color name="lemon_top_bg">#02a1e9</color>
+    <color name="lemon_top_se">#2EB2F9</color>
+    <color name="lemon_you_text_colorlu">#02a1e9</color>
+    <color name="lemon_dingzhi_start_back">#eeEF6A6A</color>
+
+    <!--<color name="lemon_top_bg">#fc5144</color>-->
+
+    <color name="lemon_white">#FFFFFF</color>
+    <string name="lemon_type_name">物业专场</string>
+    <string name="lemon_load_text">小柠正在努力加载中</string>
+    <string name="lemon_wuye">物业电视台</string>
+    <string name="lemon_wu_xiaoqu_name">物业家园</string>
+    <dimen name="lemon_skin_bug_height">45dp</dimen>
+    <dimen name="lemon_skin_text_size">15sp</dimen>
+</resources>

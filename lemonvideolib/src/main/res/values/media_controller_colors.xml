@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="media_controller_forward_text_color">#878787</color>
+    <color name="media_controller_forward_to_text_color">#00c9ff</color>
+
+</resources>

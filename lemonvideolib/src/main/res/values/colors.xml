@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="scan_bg">#7f000000</color>
+    <color name="lemon_transparent">#00000000</color>
+    <color name="lemon_bg">#f5f5f9</color>
+    <color name="lemon_banner_def">#e3ffc7</color>
+    <color name="lemon_focus">#5fff65</color>
+    <color name="lemon_type_color">#676767</color>
+    <color name="lemon_main_line">#E1E1E1</color>
+    <color name="lemon_video_msg">#71291c1c</color>
+    <color name="lemon_banner_bg">#efefef</color>
+    <color name="lemon_record_tv">#353535</color>
+    <color name="lemon_record_line">#e1e1e1</color>
+    <color name="lemon_error_title">#B1B3B5</color>
+    <color name="lemon_red">#d91212</color>
+    <color name="lemon_movie_msg">#99a1b0</color>
+    <color name="lemon_pull_text_color">#e7839e8c</color>
+    <color name="lemon_sub_title">#353535</color>
+    <color name="lemon_orange">#f39800</color>
+    <color name="lemon_movie_intro">#676767</color>
+    <color name="lemon_pay_btn_bg">#ff4515</color>
+    <color name="lemon_buy_line_bg">#fff100</color>
+    <color name="lemon_custom_btn">#fc5144</color>
+    <color name="lemon_camera_but">#50efeb</color>
+    <color name="lemon_set_text_color">#f39800</color>
+    <color name="lemon_you_text_colorluhong">#f39800</color>
+    <color name="lemon_you_text_colorhui">#9fa0a0</color>
+    <color name="lemon_blacker">#000000</color>
+    <color name="lemon_black">#000000</color>
+    <color name="lemon_count_gray">#99a1b0</color>
+    <color name="lemon_comment_bg">#F7F8F8</color>
+    <color name="lemon_commenter_gray">#676767</color>
+    <color name="lemon_text_bg">#34000000</color>
+    <color name="lemon_white_f">#d4ffffff</color>
+    <color name="lemon_anniu_bg">#32373e</color>
+    <color name="lemon_anniu2_bg">#c81825</color>
+    <color name="lemon_anniu_tv">#ed6742</color>
+    <color name="lemon_anniu_sousuo">#4cbac0</color>
+    <color name="lemon_anniu_resuo_back">#f6afa9</color>
+    <color name="lemon_episode_index_gray">#676767</color>
+    <color name="lemon_episode_index">#99a1b0</color>
+    <color name="lemon_episode_playing_orange">#f39800</color>
+
+    <color name="lemon_grid_line">#F6F6F6</color>
+    <color name="lemon_camera_bg">#2c2c2c</color>
+    <color name="lemon_camera_progress_split">#005084</color>
+    <color name="lemon_camera_progress_three">#24ff00</color>
+    <color name="lemon_camera_progress_overflow">#1b5d89</color>
+    <color name="lemon_camera_progress_delete">#f68b2b</color>
+    <color name="lemon_camera_progress_textcolor">#99a1b0</color>
+    <color name="lemon_camera_textcolor">#c9c9c9</color>
+    <color name="lemon_tab_line_orange">#f39800</color>
+    <color name="lemon_fankui_textcolor">#43c1ef</color>
+    <color name="lemon_seach_tv">#b5b5b6</color>
+
+    <color name="lemon_open_vip_color">#99B0581E</color>
+    <color name="lemon_dingzhi_color">#c1c1c1</color>
+    <color name="lemon_dingzhi_bg_color">#f39800</color>
+    <color name="lemon_dingzhi_tishi_bg_color">#dfdddd</color>
+    <color name="lemon_dingzhi_tishi_bg_text_color">#FF858485</color>
+
+    <color name="lemon_video_detail_comment_btn_color">#00a0e9</color >
+    <color name="lemon_episode_playing_blue">#1ea9b0</color>
+    <color name="lemon_variety_episode_title_dark">#676767</color>
+    <color name="lemon_variety_episode_title_orange">#f39800</color>
+    <color name="lemon_variety_episode_hot_gray">#c9caca</color>
+    <color name="lemon_dingzhi_tv_color">#dddddd</color>
+    <color name="lemon_main_ll_bg_color">#80000000</color>
+    <color name="lemon_purchase_xiaoxi_bg">#ff5572</color>
+    <color name="video_detail_intro_gray">#99a1b0</color>
+    <color name="video_detail_touming">#FFFFFFFF</color>
+    <color name="lemon_man_shugang">#43d7d3</color>
+    <color name="lemon_sousuo_shuru">#2EB2F9</color>
+
+    <!--ijk-->
+    <color name="black_overlay">#66000000</color>
+    <color name="ijk_color_blue_main">@color/ijk_color_blue_500</color>
+    <color name="ijk_color_blue_50">#E3F2FD</color>
+    <color name="ijk_color_blue_100">#BBDEFB</color>
+    <color name="ijk_color_blue_200">#90CAF9</color>
+    <color name="ijk_color_blue_300">#64B5F6</color>
+    <color name="ijk_color_blue_400">#42A5F5</color>
+    <color name="ijk_color_blue_500">#2196F3</color>
+    <color name="ijk_color_blue_600">#1E88E5</color>
+    <color name="ijk_color_blue_700">#1976D2</color>
+    <color name="ijk_color_blue_800">#1565C0</color>
+    <color name="ijk_color_blue_900">#0D47A1</color>
+    <color name="ijk_transparent_dark">#77000000</color>
+    <!--ijk end-->
+</resources>

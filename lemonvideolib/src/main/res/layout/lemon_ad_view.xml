@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lemon_black">
+
+        <ImageView
+            android:id="@+id/ad_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/count_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/lemon_msg_bg"
+            android:padding="5dip"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+    <ImageButton
+        android:id="@+id/resize_image_button"
+        android:layout_width="@dimen/venvy_video_sdk_panel_height"
+        android:layout_height="@dimen/venvy_video_sdk_panel_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/lemon_msg_bg"
+        android:src="@drawable/venvy_sdk_media_controller_direction_bg"/>
+</RelativeLayout>
