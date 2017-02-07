@@ -2,9 +2,6 @@
     <!--  <string name="app_name">国卡通</string>
       <string name="lemon_video">国卡通</string>-->
 
-    <string name="lemon_video">影檬</string>
-    <string name="app_name">影檬</string>
-
     <string name="lemon_is_positive">确定</string>
     <string name="lemon_movie">电影</string>
     <string name="lemon_tv">电视剧</string>
@@ -360,7 +357,6 @@
     <string name="lemon_complete">完成</string>
     <string name="lemon_no_data_tip">小编很懒，什么也没留下</string>
     <string name="lemon_skip_ad">&#160;|&#160;跳过广告</string>
-
     <!--ijk-->
     <string name="N_A">N/A</string>
     <string name="close">Close</string>

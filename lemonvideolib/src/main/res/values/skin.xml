@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-   <!-- <color name="lemon_top_bg">#e95e02</color>
-   <color name="lemon_top_se">#2EB2F9</color>
-    <color name="lemon_you_text_colorlu">#e95e02</color>
-    <color name="lemon_dingzhi_start_back">#eee95e02</color>-->
+    <!-- <color name="lemon_top_bg">#e95e02</color>
+    <color name="lemon_top_se">#2EB2F9</color>
+     <color name="lemon_you_text_colorlu">#e95e02</color>
+     <color name="lemon_dingzhi_start_back">#eee95e02</color>-->
 
+    <!--<color name="lemon_top_bg">#ff161824</color>-->
     <color name="lemon_top_bg">#02a1e9</color>
     <color name="lemon_top_se">#2EB2F9</color>
     <color name="lemon_you_text_colorlu">#02a1e9</color>
@@ -20,4 +21,8 @@
     <string name="lemon_wu_xiaoqu_name">物业家园</string>
     <dimen name="lemon_skin_bug_height">45dp</dimen>
     <dimen name="lemon_skin_text_size">15sp</dimen>
+    <string name="lemon_video">影檬</string>
+    <string name="app_name">影檬</string>
+    <string name="lemon_agreement_title">影檬服务协议</string>
+    <string name="lemon_company">柠檬视讯</string>
 </resources>
