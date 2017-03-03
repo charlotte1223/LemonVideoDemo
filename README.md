@@ -27,8 +27,9 @@ Android 4.0及以上版本
 ####-用户身份进入
 ```java
  Intent intent = new Intent(StartActivity.this, com.lemon95.lemonvideolib.MainActivity.class);
- intent.putExtra("Mobile", user);  //手机号码 [用户名]
- intent.putExtra("Password",password); //登录密码
+ intent.putExtra("Mobile", user);  //手机号（必填）
+ intent.putExtra("NickName",nickname);//昵称（可选）
+ intent.putExtra("HeadImgUrl",imgUrl);//头像地址（可选）
  startActivity(intent);
 ```
 ##用到的第三方包
