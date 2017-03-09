@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/lemon_white"
-    android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lemon_white"
+                android:orientation="vertical">
 
     <include layout="@layout/lemon_common_top_back"></include>
 
@@ -17,7 +17,7 @@
         android:max="100"
         android:visibility="visible"/>
 
-    <com.youzan.sdk.web.plugin.YouzanBrowser
+    <WebView
         android:id="@+id/webview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -25,6 +25,14 @@
         android:layerType="software"
         android:scrollbars="none" />
 
-   <!-- <include layout="@layout/lemon_common_action_but"></include>-->
+    <!--<com.youzan.sdk.web.plugin.YouzanBrowser-->
+    <!--android:id="@+id/webview"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:layout_marginTop="55dp"-->
+    <!--android:layerType="software"-->
+    <!--android:scrollbars="none" />-->
+
+    <!-- <include layout="@layout/lemon_common_action_but"></include>-->
 
 </RelativeLayout>
